@@ -16,6 +16,9 @@
     {% block head %}{% endblock %}
   </head>
   <body class="antialiased">
+    {% include "../components/navigation.njk" %}
+    {% include "../components/header.njk" %}
+
     {% block content %}
       {{ content | safe }}
     {% endblock %}
