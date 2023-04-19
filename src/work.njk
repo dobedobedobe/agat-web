@@ -10,7 +10,10 @@ layout: layouts/base.njk
     <div>
     {% for post in projlist %}
             <a class="" href="{{ post.url | url }}">{{ post.data.title }}
-            <img src="{{ post.data.featimg }}">
+            <img src="{{ post.data.featimg }}" width="180px">
+            {% for tag in post.data.chips %} 
+            <p>{{tag}}</p>
+            {% endfor%}
             </a>
     {% endfor %}
     </div>

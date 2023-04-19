@@ -1,7 +1,7 @@
 ---
 title: project 1 title
 projprov: This is the project provocation
-tags: 
+chips: 
     - community
     - generative text
     - literature

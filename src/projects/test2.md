@@ -1,7 +1,7 @@
 ---
 title: project 2 title
 projprov: This is the project provocation
-tags: 
+chips: 
     - commission
     - threejs
     - theatre
