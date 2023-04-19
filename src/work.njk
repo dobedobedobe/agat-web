@@ -1,0 +1,17 @@
+---
+title: Work
+description: Ajaibghar Website Landing Page
+layout: layouts/base.njk
+---
+<div class="" x-init="console.log('Hello from Alpine.js')">
+    <h1>{{ title }}</h1>
+    {% set projlist = collections.projects %}
+
+    <div>
+    {% for post in projlist %}
+            <a class="" href="{{ post.url | url }}">{{ post.data.title }}
+            <img src="{{ post.data.featimg }}">
+            </a>
+    {% endfor %}
+    </div>
+</div>

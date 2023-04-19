@@ -1,8 +1,43 @@
 ---
+description: Ajaibghar Website Landing Page
 layout: layouts/base.njk
-
 ---
 
-<div class="">
-<h1 class="">{{ title }}</h1>
-</div>
+{{title}}
+{{projprov}}
+<img src="{{featimg}}">
+<ul>
+    {%- for tag in tags -%}
+        <li>{{ tag }}</li>
+    {%- endfor -%}
+</ul>
+
+{{projdet.client}}
+
+<ul>
+    {%- for tasks in projdet.delivery -%}
+        <li>{{ tasks }}</li>
+    {%- endfor -%}
+</ul>
+
+<ul>
+    {%- for collaborator in projdet.collaborators -%}
+        <li>{{ collaborator }}</li>
+    {%- endfor -%}
+</ul>
+
+{{ projctx }}
+
+{% block content %}
+    {{ content | safe }}
+{% endblock %}
+
+{%- for img in projimg -%}
+    <img src="{{ img.img }}" alt="{{ img.caption }}" width="80px">
+    <p>{{ img.caption}}</p>
+{%- endfor-%}
+
+
+<p>{{ relproj.projname}}</p>
+<p>{{ relproj.projprov}}</p>
+
