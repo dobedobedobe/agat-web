@@ -14,7 +14,7 @@ projdet:
         - production
         - project management
     collaborators:
-        - yugen
+        - murthy aunty
         - anjana
         - tinu
 projctx: this is the context
