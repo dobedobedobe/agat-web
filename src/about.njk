@@ -2,7 +2,42 @@
 title: About
 description: Ajaibghar about page
 layout: layouts/base.njk
+aboutus: descriptive paragraph
+point1: about culture and innovation
+point2: about creative tech & futures
+point3: about includion and diverisity
 ---
 <div class="" x-init="console.log('Hello from Alpine.js')">
     <h1>{{ title }}</h1>
+    <p>{{ aboutus }}</p>
+    <p>{{ point1 }}</p>
+    <p>{{ point2 }}</p>
+    <p>{{ point3 }}</p>
+</div>
+
+<div>WHO WE ARE</div>
+
+<div>
+    {% for who in teamList.team -%}
+        {% if who.role == "Founder"%}
+            <div class="founder">
+                <h2>{{ who.name }}</h2>
+                <img src="{{ who.photo }}" alt="Picture of {{ who.name }}">
+                <p>{{ who.bio }}</p>
+                <a href="{{ who.link }}">Link</a>
+            </div>
+        {% endif %}
+    {% endfor -%}
+    {% for who in teamList.team -%}
+
+        {% if who.role == "Collaborator"%}
+            <div class="collaborators">
+                <h2>{{ who.name }}</h2>
+                <img src="{{ who.photo }}" alt="Picture of {{ who.name }}">
+                <p>{{ who.bio }}</p>
+                <a href="{{ who.link }}">Link</a>
+            </div>
+        {% endif %}
+    {% endfor -%}
+
 </div>
