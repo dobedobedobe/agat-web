@@ -5,6 +5,11 @@ chips:
     - commission
     - generative text
     - AI
+ingredients:
+    - playful
+    - experimental
+    - meaningful
+    - diverse
 featimg: /img/logo.svg
 projdet:
     client: acme inc.

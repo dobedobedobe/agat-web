@@ -5,6 +5,11 @@ chips:
     - community
     - generative text
     - literature
+ingredients:
+    - experimental
+    - emotional
+    - storytelling
+    - whimsy
 featimg: /img/logo.svg
 projdet:
     client: acme inc.

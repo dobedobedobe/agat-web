@@ -5,6 +5,13 @@ chips:
     - commission
     - threejs
     - theatre
+ingredients:
+    - playful
+    - inclusive
+    - emotional
+    - repurpose
+    - participatory
+    - whimsy
 featimg: /img/logo.svg
 projdet:
     client: amitesh grover
