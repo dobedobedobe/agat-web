@@ -1,20 +1,30 @@
 ---
-title: Work
+title: Our Work
 description: Ajaibghar Projects Page
 layout: layouts/base.njk
 ---
-<div class="" x-init="console.log('Hello from Alpine.js')">
-    <h1>{{ title }}</h1>
-    {% set projlist = collections.projects %}
 
-    <div>
-    {% for post in projlist %}
-            <a class="" href="{{ post.url | url }}">{{ post.data.title }}
-            <img src="{{ post.data.featimg }}" width="180px">
-            {% for tag in post.data.chips %} 
-            <p>{{tag}}</p>
-            {% endfor%}
-            </a>
-    {% endfor %}
+<div class="font-work" x-init="console.log('Hello from Alpine.js')">
+    <h1 class="text-6xl font-extrabold ml-4 my-6">{{ title }}</h1>
+    
+    {% set projlist = collections.projects %}
+    
+    <div class="flex flex-col flex-wrap justify-between md:flex-row lg:flex-row xl:flex-row 2xl:flex-row px-2 md:px-8 lg:px-8 xl:px-8 2xl:px-8">
+        {% for post in projlist %}
+            <div class="">
+                <a class="" href="{{ post.url | url }}">
+                    <div class="">
+                    <img src="{{ post.data.featimg }}" class="object-cover h-48 w-96">
+                    <p class="text-lg font-thin">{{post.data.projprov}}</p>
+                    <p class="text-3xl font-regular italic capitalize">{{ post.data.title }}</p>
+                        {# {% for tag in post.data.chips %}
+                            <p class="text-sm font-thin">{{ tag }}</p>
+                        {% endfor %} #}
+                    </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
     </div>
-</div>
+
+    

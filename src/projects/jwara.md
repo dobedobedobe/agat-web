@@ -1,18 +1,20 @@
 ---
-title: project 3 title
+title: Jwara
 projprov: This is the project provocation
 chips: 
     - commission
-    - generative text
-    - AI
+    - threejs
+    - theatre
 ingredients:
-    - playful
     - experimental
-    - meaningful
-    - diverse
-featimg: /img/logo.svg
+    - inclusive
+    - tribe
+    - repurpose
+    - participatory
+    - friendly
+featimg: /img/jwara.png
 projdet:
-    client: acme inc.
+    client: amitesh grover
     delivery:
         - concept
         - design delivery
@@ -24,7 +26,7 @@ projdet:
         - tinu
 projctx: this is the context
 projimg:
-    - img: /img/logo.svg
+    - img: /img/jwara.png
       caption: image 1
     - img: /img/logo.svg
       caption: image 2

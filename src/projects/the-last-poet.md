@@ -1,5 +1,5 @@
 ---
-title: project 1 title
+title: The Last Poet
 projprov: This is the project provocation
 chips: 
     - community
@@ -10,7 +10,7 @@ ingredients:
     - emotional
     - storytelling
     - whimsy
-featimg: /img/logo.svg
+featimg: /img/TLP-intro+page.png
 projdet:
     client: acme inc.
     delivery:
@@ -24,7 +24,7 @@ projdet:
         - tinu
 projctx: this is the context
 projimg:
-    - img: /img/logo.svg
+    - img: TLP-intro+page.png
       caption: image 1
     - img: /img/logo.svg
       caption: image 2

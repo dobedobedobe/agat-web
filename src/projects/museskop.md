@@ -1,20 +1,18 @@
 ---
-title: project 2 title
+title: Museskop
 projprov: This is the project provocation
 chips: 
     - commission
-    - threejs
-    - theatre
+    - generative text
+    - AI
 ingredients:
+    - playful
     - experimental
-    - inclusive
-    - tribe
-    - repurpose
-    - participatory
-    - friendly
-featimg: /img/logo.svg
+    - meaningful
+    - diverse
+featimg: /img/museskop.jpg
 projdet:
-    client: amitesh grover
+    client: acme inc.
     delivery:
         - concept
         - design delivery
@@ -26,7 +24,7 @@ projdet:
         - tinu
 projctx: this is the context
 projimg:
-    - img: /img/logo.svg
+    - img: /img/museskop.jpg
       caption: image 1
     - img: /img/logo.svg
       caption: image 2

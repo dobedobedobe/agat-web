@@ -1,5 +1,5 @@
 ---
-title: project 4 title
+title: Contagion
 projprov: This is the project provocation
 chips: 
     - commission
@@ -12,7 +12,7 @@ ingredients:
     - repurpose
     - participatory
     - whimsy
-featimg: /img/logo.svg
+featimg: /img/contagion.png
 projdet:
     client: amitesh grover
     delivery:
@@ -26,7 +26,7 @@ projdet:
         - tinu
 projctx: this is the context
 projimg:
-    - img: /img/logo.svg
+    - img: /img/contagion.png
       caption: image 1
     - img: /img/logo.svg
       caption: image 2
