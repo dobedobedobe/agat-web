@@ -1,0 +1,19 @@
+---
+permalink: lp_data/salad.json
+---
+[    
+
+{%- for tag, posts in collections %}
+
+{    
+     "tag": "{{tag}}",
+     "projects": 
+     [
+     {%- for project in collections[tag] %}   
+         "{{project.data.title}}"{{ '' if loop.last else ',' }} 
+     {%- endfor %}
+    ]  
+}{{ '' if loop.last else ',' }} 
+{%- endfor %}
+
+]

@@ -31,8 +31,9 @@ projimg:
     - img: /img/logo.svg
       caption: image 2
 relproj:
-    projname: project 2 related
-    projprov: project 2 provocation
+    projname: jwara
+    projprov: highlighting the grandeur and magnificence of the most formidable herbivore
+    projlink: /projects/jwara
 layout: layouts/project.njk
 ---
 

@@ -29,8 +29,9 @@ projimg:
     - img: /img/logo.svg
       caption: image 2
 relproj:
-    projname: project 2 related
-    projprov: project 2 provocation
+    projname: contagion
+    projprov: highlighting the grandeur and magnificence of the most formidable herbivore
+    projlink: /projects/contagion
 layout: layouts/project.njk
 ---
 
