@@ -14,39 +14,30 @@ collections:
     label: "Projects" # Used in the UI
     folder: "src/projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Project Provocation", name: "projprov", widget: "string"}
-      - label: "Chip Tech"
-        name: "chip_tech"
-        widget: "select"
-        options: ["generative text", "threejs", "interactive data representaton", "generative ASCII art", "Image based AI", "interactive game", "interactive phone IVR", "Emerging Tech", "Creative Tech"]
-      - label: "Chip Culture"
-        name: "chip_culture"
-        widget: "select"
-        options: ["literature", "theatre", "museum", "architecture", "art", "youth"]
-      - label: "Chip Extra"
-        name: "chip_extra"
-        widget: "select"
-        options: ["community", "commission", "lab"]
+      - label: "Chips"
+        name: "chip"
+        widget: "list"
+        fields:
+          - {label: "chips", name: "chips", widget: "string"}
       - label: "Ingredients"
         name: "ingredients"
-        widget: "select"
-        multiple: true
-        options: ["playful","experimental","inclusive","emergent","emotional","storytelling","tribe","meaningful","repurpose","participatory","friendly","diverse","whimsy"]
+        widget: "list"
+        fields:
+          - {label: "Ingredients", name: "ingredients", widget: "string"}
       - {label: "Featured Image", name: "featimg", widget: "image"}
       - {label: "Client", name: "client", widget: "string"}
       - label: "Delivery"
         name: "delivery"
         widget: "list"
-        collapsed: false
         fields:
           - {label: "Delivery", name: "delivery", widget: "string"}
       - label: "Collaborators"
         name: "collaborators"
         widget: "list"
-        collapsed: false
         fields:
           - {label: "Collaborators", name: "collaborators", widget: "string"}
       - {label: "Project Context", name: "projctx", widget: "string"}
@@ -54,9 +45,13 @@ collections:
         name: "projimg"
         widget: "list"
         fields:
-          - {label: "project images", name: "img", widget: "image", required: false, hint: "Image should be 16:9"}
+          - {label: "project images", name: "projimg", widget: "image", required: false, hint: "Image should be 16:9"}
           - {label: "project caption", name: "caption", widget: "string", required: false, hint: "Image should be 16:9"}
-      - {label: "project videos", name: "project_videos", widget: "string", required: false, hint: "add video links"}
+      - label: "Project videos"
+        name: "project videos"
+        widget: "list"
+        fields:
+          - {label: "project videos", name: "project_videos", widget: "string", required: false, hint: "add video links"}
       - {label: "Related Project", name: "relprojname", widget: "string"}
       - {label: "Related Project Provocation", name: "relprojprov", widget: "string"}
       - {label: "Related Project Link", name: "relprojlink", widget: "string"}

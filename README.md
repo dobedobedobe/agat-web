@@ -21,7 +21,14 @@ Minimal 11ty starter project that build css with tailwindcss cli and [esbuild](h
 npm install
 ```
 
-## Local dev
+## Local dev with netlify cms
+
+First run 
+
+```
+npx netlify-cms-proxy-server
+```
+then run
 
 ```
 npm run start

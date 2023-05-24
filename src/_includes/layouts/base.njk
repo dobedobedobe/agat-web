@@ -38,6 +38,7 @@
     </head>
     <body class="antialiased">
       {% include "../components/header.njk" %}
+      
       {% block content %}
         {{ content | safe }}
       {% endblock %}

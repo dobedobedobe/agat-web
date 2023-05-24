@@ -1,43 +1,42 @@
 ---
 title: Jwara
-projprov: This is the project provocation, this is extremely long winded and cleverly written and its just wow
-chips: 
-    - commission
-    - threejs
-    - theatre
+projprov: This is the project provocation
+chip_tech: threejs
+chip_culture: museum
+chip_extra: commission
 ingredients:
-    - experimental
-    - inclusive
-    - tribe
-    - repurpose
-    - participatory
-    - friendly
-featimg: /img/jwara.png
+  - experimental
+  - inclusive
+  - tribe
+  - repurpose
+  - participatory
+  - friendly
+featimg: /img/uploads/jwara.png
 client: amitesh grover
 delivery:
-    - concept
-    - design delivery
-    - production
-    - project management
+  - delivery: concept
+  - delivery: design delivery
+  - delivery: production
+  - delivery: project management
 collaborators:
-    - yugen
-    - anjana
-    - tinu
-projctx: Having recently acquired Horridus, the most complete and finely preserved Triceratops fossil in the world, Melbourne Museum set out to enthrall and connect its visitors to the long extinct world of the Cretaceous, by highlighting the grandeur and magnificence of the most formidable herbivore in history.
+  - collaborators: yugen
+  - collaborators: anjana
+  - collaborators: tinu
+projctx: Having recently acquired Horridus, the most complete and finely
+  preserved Triceratops fossil in the world, Melbourne Museum set out to
+  enthrall and connect its visitors to the long extinct world of the Cretaceous,
+  by highlighting the grandeur and magnificence of the most formidable herbivore
+  in history.
 projimg:
-    - img: /img/jwara.png
-      caption: image 1
-    - img: /img/logo.svg
-      caption: image 2
-    - img: /img/jwara.png
-      caption: image 1
-    - img: /img/logo.svg
-      caption: image 2
+  - img: /img/uploads/jwara.png
+    caption: image 1
+  - img: /img/uploads/jwara.png
+    caption: image 1
 relprojname: museskop
-relprojprov: highlighting the grandeur and magnificence of the most formidable herbivore
-relprojlink: /projects/museskop
-relprojimg: /img/museskop.jpg
 layout: layouts/project.njk
+relprojprov: highlighting the grandeur and magnificence of the most formidable herbivore
+relprojlink: museskop
+relprojimg: /img/uploads/museskop.jpg
 ---
 
 Travelling back through time between the sun-dappled foliage and vibrant greens, an array of dinosaurs appear to be very curious about your strange intrusion. Get too close? They might rush up to meet your gaze. The mighty Tyrannosaurus Rex stalks through the forest as the Triceratops’ fate is sealed.

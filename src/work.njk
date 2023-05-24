@@ -4,33 +4,32 @@ description: Ajaibghar Projects Page
 layout: layouts/base.njk
 ---
 
-<div class="font-work" x-init="console.log('Hello from Alpine.js')" class="w-full lg:w-2/3 xl:w-2/3 2xl:w-2/3">
-    <div class="mx-4 py-4">
-        <h1 class="text-6xl font-extrabold">{{ title }}</h1>
-        <p class="text-xl mt-4 font-light leading-snug max-w-prose">Astonishingly Unforgettable Experiences. We are focussed on providing platform-agnostic, unique, creative solutions to near-impossible problems.</p>
+<div class="font-work" x-init="console.log('Hello from Alpine.js')" class="h-screen">
+    <div class="header text-center my-16 space-y-8 mx-4 md:mx-auto lg:mx-auto xl:mx-auto 2xl:mx-auto  md:w-1/3 lg:w-1/3 xl:w-1/3 2xl:w-1/3">
+        <h1 class="text-5xl font-semibold">{{ title }}</h1>
+        <p class="text-xl">Astonishingly Unforgettable Experiences. We are focussed on providing platform-agnostic, unique, creative solutions to near-impossible problems.</p>
     </div>
     {% set projlist = collections.projects %}
 
-    <div class="flex flex-col justify-between md:flex-row lg:flex-row xl:flex-row 2xl:flex-row px-2 md:px-8 lg:px-8 xl:px-8 2xl:px-8">
+    <div class="projectlist mt-16 flex flex-col flex-wrap md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-4 xl:grid xl:grid-cols-2 xl:gap-4 2xl:grid 2xl:grid-cols-2 2xl:gap-4 md:mx-24 lg:mx-24 xl:mx-24 2xl:mx-24">
         {% for post in projlist %}
-            <div class="p-4 relative">
-                <a class="" href="{{ post.url | url }}">
-
-                    <p class="p-4 top-20 absolute text-white italic capitalize text-center text-5xl font-bold self-stretch">{{ post.data.title }}</p>
-                    <img src="{{ post.data.featimg }}" class="object-fill rounded-md transition duration-300 ease-in-out hover:shadow-lg  dark:hover:shadow-black/30">
-                    <p class="text-lg font-regular text-center ">{{ post.data.projprov }}</p>
-                    {% for tag in post.data.chips %}
-                            <span class="text-center text-sm font-regular">{{ tag }}</span>
-                            {# <span> x </span> #}
-                            <span>{{ '' if loop.last else 'x' }}</span> 
-                    {% endfor %}
+            <div class="eachproject">
+                <div class="hyperlinks aspect-video">
+                <a class="text-center" href="{{ post.url | url }}">
+                    <img src="{{ post.data.featimg }}" class="h-full w-full object-cover">
+                    <p class="font-regular text-2xl mt-4 uppercase">{{ post.data.title }}</p>
+                    <p class="font-semibold text-2xl">{{ post.data.projprov }}</p>
+                </a>
                 </div>
-            </a>
-        </div>
-    {% endfor %}
-    {# 
-        {%- for proj in collections.projects %}
-        <p>{{proj.data.chips}}</p>
-          {%- endfor %} #}
+                <div class="text-center font-light my-4 text-gray-400 uppercase">
+                    <span class="">{{ post.data.chip_tech }}</span>
+                    <span> x </span>
+                    <span class="">{{ post.data.chip_culture }}</span>
+                    <span> x </span>
+                    <span class="">{{ post.data.chip_extra }}</span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 </div>
