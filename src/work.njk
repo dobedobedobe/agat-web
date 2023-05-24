@@ -5,30 +5,32 @@ layout: layouts/base.njk
 ---
 
 <div class="font-work" x-init="console.log('Hello from Alpine.js')" class="w-full lg:w-2/3 xl:w-2/3 2xl:w-2/3">
-    <h1 class="text-6xl font-extrabold ml-4 my-6">{{ title }}</h1>
-    
+    <div class="mx-4 py-4">
+        <h1 class="text-6xl font-extrabold">{{ title }}</h1>
+        <p class="text-xl mt-4 font-light leading-snug max-w-prose">Astonishingly Unforgettable Experiences. We are focussed on providing platform-agnostic, unique, creative solutions to near-impossible problems.</p>
+    </div>
     {% set projlist = collections.projects %}
-    
-    <div class="flex flex-col  justify-between md:flex-row lg:flex-row xl:flex-row 2xl:flex-row px-2 md:px-8 lg:px-8 xl:px-8 2xl:px-8">
+
+    <div class="flex flex-col justify-between md:flex-row lg:flex-row xl:flex-row 2xl:flex-row px-2 md:px-8 lg:px-8 xl:px-8 2xl:px-8">
         {% for post in projlist %}
             <div class="p-4 relative">
                 <a class="" href="{{ post.url | url }}">
-  
+
                     <p class="p-4 top-20 absolute text-white italic capitalize text-center text-5xl font-bold self-stretch">{{ post.data.title }}</p>
-                    <img src="{{ post.data.featimg }}" class="object-cover rounded-md transition duration-300 ease-in-out hover:shadow-lg  dark:hover:shadow-black/30 bg-blend-multiply">
-                    <p class="text-lg font-regular text-center ">{{post.data.projprov}}</p>
-                        {# {% for tag in post.data.chips %}
-                            <p class="text-sm font-thin">{{ tag }}</p>
-                        {% endfor %} #}
-                    </div>
-                    </a>
+                    <img src="{{ post.data.featimg }}" class="object-fill rounded-md transition duration-300 ease-in-out hover:shadow-lg  dark:hover:shadow-black/30">
+                    <p class="text-lg font-regular text-center ">{{ post.data.projprov }}</p>
+                    {% for tag in post.data.chips %}
+                            <span class="text-center text-sm font-regular">{{ tag }}</span>
+                            {# <span> x </span> #}
+                            <span>{{ '' if loop.last else 'x' }}</span> 
+                    {% endfor %}
                 </div>
-            {% endfor %}
-{# 
+            </a>
+        </div>
+    {% endfor %}
+    {# 
         {%- for proj in collections.projects %}
         <p>{{proj.data.chips}}</p>
           {%- endfor %} #}
-        </div>
-    </div>
-
-    
+</div>
+</div>

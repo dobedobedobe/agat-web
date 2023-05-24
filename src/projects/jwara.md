@@ -13,17 +13,16 @@ ingredients:
     - participatory
     - friendly
 featimg: /img/jwara.png
-projdet:
-    client: amitesh grover
-    delivery:
-        - concept
-        - design delivery
-        - production
-        - project management
-    collaborators:
-        - yugen
-        - anjana
-        - tinu
+client: amitesh grover
+delivery:
+    - concept
+    - design delivery
+    - production
+    - project management
+collaborators:
+    - yugen
+    - anjana
+    - tinu
 projctx: Having recently acquired Horridus, the most complete and finely preserved Triceratops fossil in the world, Melbourne Museum set out to enthrall and connect its visitors to the long extinct world of the Cretaceous, by highlighting the grandeur and magnificence of the most formidable herbivore in history.
 projimg:
     - img: /img/jwara.png
@@ -34,11 +33,10 @@ projimg:
       caption: image 1
     - img: /img/logo.svg
       caption: image 2
-relproj:
-    projname: museskop
-    projprov: highlighting the grandeur and magnificence of the most formidable herbivore
-    projlink: /projects/museskop
-    img: /img/museskop.jpg
+relprojname: museskop
+relprojprov: highlighting the grandeur and magnificence of the most formidable herbivore
+relprojlink: /projects/museskop
+relprojimg: /img/museskop.jpg
 layout: layouts/project.njk
 ---
 
