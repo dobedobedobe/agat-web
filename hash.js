@@ -4,7 +4,7 @@ const md5 = require('md5');
 const assets = [
   '/css/styles.css',
   '/js/scripts.js',
-  '/_data/teamList.json'
+  // '/_data/teamList.json'
 ];
 
 const dataFile = '_data/hash.json';
