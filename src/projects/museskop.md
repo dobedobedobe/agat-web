@@ -4,7 +4,7 @@ projprov: This is the project provocation
 chip_tech: Image based AI
 chip_culture: art
 chip_extra: lab
-ingredients:
+tags:
   - playful
   - experimental
   - meaningful

@@ -3,17 +3,24 @@ permalink: lp_data/salad.json
 ---
 [    
 
-{%- for tag, posts in collections %}
+{% for post in collections.projects %}
+    {% set data = post.data %}
+    {% for ingredients in data.ingredients %}
+     { name: {{data.title}}, type:'{{ingredients}}'}
+{%- endfor %}{{ '' if loop.last else ',' }}
+{%- endfor %}
+
+
+{# {%- for ingredients, posts in collections %}
 
 {    
-     "tag": "{{tag}}",
+     "tags": "{{ingredients}}",
      "projects": 
      [
-     {%- for project in collections[tag] %}   
+     {%- for project in collections[ingredients] %}   
          "{{project.data.title}}"{{ '' if loop.last else ',' }} 
      {%- endfor %}
     ]  
 }{{ '' if loop.last else ',' }} 
-{%- endfor %}
-
+{%- endfor %} #}
 ]

@@ -6,10 +6,8 @@ chip_culture: museum
 chip_extra: commission
 ingredients:
   - experimental
-  - inclusive
-  - tribe
+  - storytelling
   - repurpose
-  - participatory
   - friendly
 featimg: /img/uploads/jwara.png
 client: amitesh grover
@@ -34,9 +32,17 @@ projimg:
     caption: image 1
 relprojname: museskop
 layout: layouts/project.njk
+project_videos: https://www.youtube.com/embed/45DkH6xFGGs
 relprojprov: highlighting the grandeur and magnificence of the most formidable herbivore
 relprojlink: museskop
 relprojimg: /img/uploads/museskop.jpg
+tags:
+  - experimental
+  - inclusive
+  - tribe
+  - repurpose
+  - participatory
+  - friendly
 ---
 
 Travelling back through time between the sun-dappled foliage and vibrant greens, an array of dinosaurs appear to be very curious about your strange intrusion. Get too close? They might rush up to meet your gaze. The mighty Tyrannosaurus Rex stalks through the forest as the Triceratops’ fate is sealed.

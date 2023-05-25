@@ -1,0 +1,21 @@
+---
+permalink: lp_data/salad2.json
+---
+
+{# this makes the list per ingredient and they are all under the "tags category in 11ty" #}
+[    
+
+{%- for tag, posts in collections %}
+
+{    
+     "tag": "{{tag}}",
+     "projects": 
+     [
+     {%- for project in collections[tag] %}   
+         "{{project.data.title}}"{{ '' if loop.last else ',' }} 
+     {%- endfor %}
+    ]  
+}{{ '' if loop.last else ',' }} 
+{%- endfor %}
+
+]

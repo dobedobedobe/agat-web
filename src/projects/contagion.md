@@ -4,7 +4,7 @@ projprov: This is the project provocation
 chip_tech: interactive data representaton
 chip_culture: museum
 chip_extra: commission
-ingredients:
+tags:
   - playful
   - inclusive
   - emotional

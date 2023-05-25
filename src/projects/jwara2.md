@@ -4,7 +4,7 @@ projprov: this is provocation
 chip_tech: Image based AI
 chip_culture: theatre
 chip_extra: commission
-ingredients:
+tags:
   - inclusive
   - emotional
   - participatory

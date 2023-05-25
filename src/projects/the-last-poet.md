@@ -5,7 +5,7 @@ chips:
     - community
     - generative text
     - literature
-ingredients:
+tags:
     - experimental
     - emotional
     - storytelling
