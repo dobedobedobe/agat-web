@@ -9,13 +9,13 @@ tags:
   - experimental
   - meaningful
   - diverse
-featimg: /img/museskop.jpg
+featimg: /img/uploads/museskop.jpg
 client: Self
 projctx: this is the context
 projimg:
-  - img: /img/museskop.jpg
+  - img: /img/uploads/museskop.jpg
     caption: image 1
-  - img: /img/logo.svg
+  - img: /img/uploads/logo.svg
     caption: image 2
 relprojname: The Last Poet
 chips:

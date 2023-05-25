@@ -11,7 +11,7 @@ tags:
   - repurpose
   - participatory
   - whimsy
-featimg: /img/contagion.png
+featimg: /img/uploads/contagion.png
 client: Science Gallery Bengaluru
 delivery:
   - delivery: Concept
@@ -19,9 +19,9 @@ collaborators:
   - collaborators: Anushka
 projctx: this is the context
 projimg:
-  - img: /img/contagion.png
+  - img: /img/uploads/contagion.png
     caption: image 1
-  - img: /img/logo.svg
+  - img: /img/uploads/logo.svg
     caption: image 2
 relprojname: Jwara
 chips:

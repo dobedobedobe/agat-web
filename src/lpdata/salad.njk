@@ -11,16 +11,4 @@ permalink: lp_data/salad.json
 {%- endfor %}
 
 
-{# {%- for ingredients, posts in collections %}
-
-{    
-     "tags": "{{ingredients}}",
-     "projects": 
-     [
-     {%- for project in collections[ingredients] %}   
-         "{{project.data.title}}"{{ '' if loop.last else ',' }} 
-     {%- endfor %}
-    ]  
-}{{ '' if loop.last else ',' }} 
-{%- endfor %} #}
 ]

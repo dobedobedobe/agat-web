@@ -2,6 +2,8 @@ let data;
 let buttons = [];
 let arrVotes = [];
 let getTally;
+let images = [];
+let answers 
 function preload() {
   data = loadJSON("lp_data/salad2.json");
 }
@@ -10,22 +12,28 @@ function setup() {
   //   canvas.parent("salad");
   noCanvas();
   let project = Object.values(data);
-  //   console.log(project[0])
-  project.forEach((b) => {
-    buttons[b] = createButton(b.tag);
-    buttons[b].id(b.tag);
-    buttons[b].addClass("p-4");
-    buttons[b].addClass("rounded-full");
-    buttons[b].addClass("bg-green-300");
-    buttons[b].parent(salad);
-    buttons[b].mousePressed(() => {
-      // console.log(b.projects)
+  let fixedproject=project.slice(2);
+  fixedproject.forEach((b, index) => {
+    let imageName = "img/lp_images/img" + ("000" + (index + 1)).slice(-3) + ".png";
+    images[b] = createImg(imageName);
+    images[b].id(b.tag);
+    images[b].style("width","200px")
+    images[b].addClass("p-4");
+    images[b].parent(salad);
+    images[b].mousePressed(() => {
       arrVotes.push(b.projects);
-        console.log(arrVotes.flat());
+      console.log(arrVotes.flat());
     });
+    // images[b].draggable();
+     // Set random position
+     let x = random(windowWidth);
+     let y = random(windowHeight/1.2);
+     images[b].position(x, y);
   });
 
-  getTally = createButton("whats the result");
+  getTally = createButton("Get Salad");
+  getTally.id("result")
+  answers = createP('')
   getTally.mousePressed(countVotes);
 }
 
@@ -47,7 +55,7 @@ function countVotes() {
     console.log(count)
     console.log(getKeyByValue(count,maxCount));
 //   }
-
+    answers.html(getKeyByValue(count,maxCount))
 }
 
 
