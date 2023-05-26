@@ -3,7 +3,7 @@ const md5 = require('md5');
 
 const assets = [
   '/css/styles.css',
-  'js/sketch.js',
+  // 'js/sketch.js',
   // '/_data/teamList.json'
 ];
 
