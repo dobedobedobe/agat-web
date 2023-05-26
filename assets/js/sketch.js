@@ -1,21 +1,23 @@
+// Exporting a function called 'mySketch'
+export const mySketch = (p) => {
 let data;
 let buttons = [];
 let arrVotes = [];
 let getTally;
 let images = [];
 let answers 
-function preload() {
-  data = loadJSON("lp_data/salad2.json");
+p.preload = () => {
+  data = p.loadJSON("lp_data/salad2.json");
 }
-function setup() {
+p.setup = () =>{
   //   var canvas = createCanvas(400, 400);
   //   canvas.parent("salad");
-  noCanvas();
+  p.noCanvas();
   let project = Object.values(data);
   let fixedproject=project.slice(2);
   fixedproject.forEach((b, index) => {
     let imageName = "img/lp_images/img" + ("000" + (index + 1)).slice(-3) + ".png";
-    images[b] = createImg(imageName);
+    images[b] = p.createImg(imageName);
     images[b].id(b.tag);
     images[b].style("width","200px")
     images[b].addClass("p-4");
@@ -26,14 +28,17 @@ function setup() {
     });
     // images[b].draggable();
      // Set random position
-     let x = random(windowWidth);
-     let y = random(windowHeight/1.2);
+     let x = p.random(p.windowWidth);
+     let y = p.random(p.windowHeight/1.2);
      images[b].position(x, y);
   });
 
-  getTally = createButton("Get Salad");
+  getTally = p.createButton("Get Salad");
   getTally.id("result")
-  answers = createP('')
+  getTally.parent(salad)
+  answers = p.createP('')
+  answers.id("answers")
+  answers.parent(salad)
   getTally.mousePressed(countVotes);
 }
 
@@ -62,3 +67,5 @@ function countVotes() {
 function getKeyByValue(object, value) {
     return Object.keys(object).filter(key => object[key] === value);
   }
+
+}

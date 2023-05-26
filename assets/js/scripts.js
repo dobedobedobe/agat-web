@@ -1,28 +1,10 @@
-// var c = document.getElementById("defaultCanvas0");
-// var salad= document.getElementById("salad")
-// c.appendChild(salad)
+// Import an installed module from npm
+import p5 from 'p5'
+// Import a variable from a javascript file from the project folder
+import { mySketch } from './sketch.js'
 
-// var ctx = c.getContext("2d");
-// ctx.moveTo(0, 0);
-// ctx.lineTo(200, 100);
-// ctx.stroke();
+console.log('Hello from javascript!')
 
-//   myp5 = document.getElementById("defaultCanvas0")
-// //   c.appendChild(myp5)
-
-// let inA=[];
-// let data = new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//       resolve(
-//         fetch("./lp_data/salad2.json")
-//       .then((response) => response.json())
-//       .then((json) =>
-//       json.forEach((element) => {
-//         console.log(element.tag)
-//       })));
-//     }, 300);
-//   });
-
-//   console.log(inA)
-
-
+// Initializing p5.js
+// p5 requires two arguments: new p5(sketch function, target DOM element)
+new p5(mySketch, document.getElementById('canvas'))
