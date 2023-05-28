@@ -1,18 +1,19 @@
-<nav class="flex items-center mr-4" aria-label="Global">
-  <div class="hidden md:flex lg:flex xl:flex 2xl:flex">
-  <a href="/about" class="p-4 text-lg font-work font-medium ">About</a>
-  <a href="/work" class="p-4 text-lg font-work font-medium ">Work</a>
-  <a href="/letstalk" class="p-4 text-lg font-work font-medium ">Let's Talk</a>
+<nav class="" aria-label="Global">
+  <div class="md:hidden lg:hidden xl:hidden 2xl:hidden">
+    <button type="button" class="-m-5 p-2.5">
+      <span class="sr-only">Open main menu</span>
+      <!-- component -->
+      <div class="flex flex-col space-y-3">
+        <span class="h-1 w-10 origin-center rounded-full bg-black transition-transform ease-in-out group-hover:translate-y-1.5 group-hover:rotate-45"></span>
+        <span class="h-1 w-8 origin-center rounded-full bg-black transition-transform ease-in-out group-hover:w-10 group-hover:-translate-y-1.5 group-hover:-rotate-45"></span>
+      </div>
+    </button>
   </div>
-  <div class="flex md:hidden lg:hidden xl:hidden 2xl:hidden">
-      <button type="button" class="-m-5 p-2.5">
-        <span class="sr-only">Open main menu</span>
-        <!-- component -->
-    <div class="space-y-2 items-center justify-end">
-      <span class="block h-1 w-10 origin-center rounded-full bg-white transition-transform ease-in-out group-hover:translate-y-1.5 group-hover:rotate-45"></span>
-      <span class="block h-1 w-8 origin-center rounded-full bg-white transition-transform ease-in-out group-hover:w-10 group-hover:-translate-y-1.5 group-hover:-rotate-45"></span>
-    </div>
 
-      </button>
-    </div>
+  <div class="flex flex-col text-center space-y-8 md:space-y-0 lg:space-y-0 xl:space-y-0 2xl:space-y-0 md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row text-3xl font-work font-medium md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">
+    <a href="/about" class="px-4">About</a>
+    <a href="/work" class="px-4">Work</a>
+    <a href="/letstalk" class="px-4">Let's Talk</a>
+  </div>
+
 </nav>

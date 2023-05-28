@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-#result {
+/* #result {
     @apply bg-yellow-500 p-3 rounded-md
+} */
+
+.cards {
+    @apply flex flex-row mx-auto items-center h-32  md:h-full lg:h-full xl:h-full 2xl:h-full
+}
+
+.worklink {
+    @apply m-2 bg-cover bg-center flex flex-row justify-stretch bg-blend-darken md:aspect-video lg:aspect-video xl:aspect-video 2xl:aspect-video  
+}
+
+.proj {
+    @apply font-work font-semibold  mx-4 text-white
+}
+
+.next-arrow{
+    @apply mx-4 md:hidden lg:hidden xl:hidden 2xl:hidden w-auto h-8
 }
