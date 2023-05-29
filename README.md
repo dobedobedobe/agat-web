@@ -1,4 +1,4 @@
-# YATAS - Yet Another Tailwind Apline Starter
+# Adapted from YATAS - Yet Another Tailwind Apline Starter
 
 <a href="https://yatas.netlify.app/" target="_blank">
   <img alt="YATAS Logo" width="350" src="./src/img/logo.svg">
@@ -8,12 +8,13 @@ Minimal 11ty starter project that build css with tailwindcss cli and [esbuild](h
 
 ## [Demo](https://yatas.netlify.app/)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhaefliger/yatas)
+[Adapted from YATAS](https://github.com/yhaefliger/yatas)
 
 ## Stack
 
 * TailwindCSS v3
-* Apline.js v3
+* p5.js for Landing Page
+* Netlify CMS
 
 ## Install
 
@@ -64,3 +65,6 @@ const assets = [
   '/js/scripts.js'
 ];
 ```
+
+### Additional info for AG site
+> for any additional JS files, dont add them in the ```assets``` array instead just in the versioned path like so ```{{ hash['/path/to/resource.css'] | url }}``` - this will collate onto to the ```scripts.js``` and generate a single JS file in ```_site``` 
