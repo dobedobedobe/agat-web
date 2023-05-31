@@ -49,6 +49,7 @@ collections:
         collapsed: false
         fields:
           - {label: "Collaborators", name: "collaborators", widget: "string"}
+      - { label: 'Call to action category', name: 'ctaCategory', widget: 'relation',  collection: 'colabs', search_fields: ["colabslist"], value_field: "colabslist.*",  display_fields: ["colabslist"]}
       - {label: "Project Context", name: "projctx", widget: "string"}
       - label: "Project images"
         name: "projimg"
@@ -62,3 +63,49 @@ collections:
       - {label: "Related Project Link", name: "relprojlink", widget: "string"}
       - {label: "Related Project Image", name: "relprojimg", widget: "image", required: false}
       - {label: "Project Detail", name: "body", widget: "markdown"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "_data/about.yaml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Point Culture, name: point_culture, widget: string}
+          - {label: Point Tech, name: point_tech, widget: string}
+          - {label: Point Inclusion, name: point_inclusion, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            collapsed: false
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Bio, name: bio, widget: string}
+              - {label: Photo, name: photo, widget: image}
+              - {label: Link, name: link, widget: string}
+          - label: Collaborators
+            name: collaborators
+            widget: list
+            collapsed: false
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Bio, name: bio, widget: string}
+              - {label: Photo, name: photo, widget: image}
+              - {label: Link, name: link, widget: string}
+  - label: "colabs"
+    name: "colabs"
+    files:
+      - label: "colab"
+        name: "colabs"
+        file: "_data/colabs.yaml"
+        fields:
+          - label: colabslist
+            name: colabslist
+            widget: list
+            collapsed: false
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Bio, name: bio, widget: string}
+              - {label: Photo, name: photo, widget: image}
+              - {label: Link, name: link, widget: string}

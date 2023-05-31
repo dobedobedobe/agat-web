@@ -1,0 +1,23 @@
+title: abouttsds
+point_culture: Culture is Culture
+point_tech: Tech is tool
+point_inclusion: Inclusion is everything
+intro: p﻿oiunt
+team:
+  - name: adf
+    bio: fdd
+    photo: /img/uploads/1683794673_microscopic-view-of-amoeba.png
+    link: adf
+  - name: ambi
+    bio: ambi bio
+    photo: /img/uploads/TLP-intro+page.png
+    link: /ambi
+collaborators:
+  - name: sd
+    bio: ceww
+    photo: /img/uploads/computational_mama_a_portrait_of_a_young_indian_mother_with_man_a6b20523-0faf-449b-9063-d36ca5efde5b.png
+    link: fasd
+  - name: anushka
+    bio: bio for anushka
+    photo: /img/uploads/green-longhorn-beetle-7353749_1280.jpg
+    link: /anushka

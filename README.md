@@ -35,6 +35,14 @@ then run
 npm run start
 ```
 
+## Local dev without netlify cms
+
+run
+
+```
+npm run start
+```
+
 ## Build
 
 Minified production build
@@ -66,5 +74,5 @@ const assets = [
 ];
 ```
 
-### Additional info for AG site
-> for any additional JS files, dont add them in the ```assets``` array instead just in the versioned path like so ```{{ hash['/path/to/resource.css'] | url }}``` - this will collate onto to the ```scripts.js``` and generate a single JS file in ```_site``` 
+## Additional info for AG site
+> for any additional JS files, add in the ```assets``` folder but dont add them in the ```assets``` array in the ```hash.js``` file instead just in the versioned path like so ```{{ hash['/path/to/resource.css'] | url }}``` - this will collate onto to the ```scripts.js``` and generate a single JS file in ```_site``` 
