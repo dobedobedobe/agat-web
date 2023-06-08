@@ -22,8 +22,10 @@ permalink: "work/{{ title }}/index.html"
     <div class="main py-3 lg:py-16 xl:py-16 2xl:py-16 flex flex-col lg:flex-row xl:flex-row 2xl:flex-row w-full justify-evenly items-center lg:items-start xl:items-start 2xl:items-start">
         <div class="chips ">
             <ul class="mb-8 content-center flex flex-row lg:flex-col xl:flex-col 2xl:flex-col">
-                 <span class="">{{ post.data.chip_tech }}</span>
-                    {# <li class="text-sm text-center w-32 m-1 p-1 bg-gray-100">{{ tag }}</li> #}
+                {# <span class="">{{ post.data.chip_tech }}</span> #}
+                <li class="text-sm text-center w-32 m-1 p-1 bg-gray-100">{{ chip_tech }}</li>
+                <li class="text-sm text-center w-32 m-1 p-1 bg-gray-100">{{ chip_culture }}</li>
+                <li class="text-sm text-center w-32 m-1 p-1 bg-gray-100">{{ chip_extra }}</li>
                 {# {%- endfor -%} #}
             </ul>
         </div>
@@ -57,21 +59,24 @@ permalink: "work/{{ title }}/index.html"
         </div>
 
     </div>
-    <div class="section2 px-10 lg:my-16 xl:my-16 2xl:my-16 flex flex-col lg:flex-row xl:flex-row 2xl:flex-row w-full justify-evenly items-center lg:items-start xl:items-start 2xl:items-start">
+    <div class="section2 px-10 lg:my-16 xl:my-16 2xl:my-16 lg:w-1/2 xl:w-1/2 2xl:w-1/2 lg:mx-auto xl:mx-auto 2xl:mx-auto flex flex-col  justify-evenly items-center lg:items-start xl:items-start 2xl:items-start">
         <div class="context mb-8 lg:mx-20 xl:mx-20 2xl:mx-20 content-center">
             <p class="text-2xl font-bold text-gray-400">{{ projctx }}</p>
         </div>
 
         <div class="projectcontent mb-8 lg:mx-16 xl:mx-16 2xl:mx-16 content-center">
             {% block content %}
-                <p class="text-xl font-regular">
+                <p class="text-xl">
                     {{ content | safe }}</p>
             {% endblock %}
         </div>
     </div>
-    <div class="vid">
+
+    {# {% if {{project_videos}} == true %} #}
+    <div class="vid  {{ 'hidden' if 'none' in project_videos }}">
         <iframe class="w-full aspect-video" src="{{project_videos}}"></iframe>
     </div>
+    {# {% endif %} #}
     {# <p>SOME IMAGES</p> #}
     <div class="bg-black py-12 flex flex-col flex-wrap lg:flex-row xl:flex-row 2xl:flex-row justify-evenly items-center">
         {%- for img in projimg -%}

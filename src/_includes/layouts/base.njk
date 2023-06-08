@@ -14,34 +14,38 @@
       integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"></script>
-      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-      <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
+    <script>
+      if (window.netlifyIdentity) {
+        window
+          .netlifyIdentity
+          .on("init", user => {
+            if (!user) {
+              window
+                .netlifyIdentity
+                .on("login", () => {
+                  document.location.href = "/admin/";
+                });
+            }
+          });
       }
-    });
-  }
-</script>
+    </script>
     <link rel="stylesheet" href="{{ hash['/css/styles.css'] | url }}"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet">
-      {% block head %}
-      {% endblock %}
-    </head>
-    <body class="antialiased">
-      {% include "../components/header.njk" %}
-      
-      {% block content %}
-        {{ content | safe }}
-      {% endblock %}
-      {% include "../components/footer.njk" %}
-    </body>
-  </html>
+    {% block head %}{% endblock %}
+
+  </head>
+  <body class="antialiased">
+    {% include "../components/header.njk" %}
+
+    {% block content %}
+      {{ content | safe }}
+    {% endblock %}
+    {% include "../components/footer.njk" %}
+  </body>
+</html>

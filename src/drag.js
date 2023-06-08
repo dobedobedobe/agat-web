@@ -105,6 +105,10 @@ function renderItem(title, url, thumb) {
   // console.log(cd.thumb);
   arrow = document.createElement("img");
   arrow.src = arrowSVG;
+  arrowC = document.createAttribute("class");
+  arrowC.value = "next-arrow";
+  arrow.setAttributeNode(arrowC);
+
   a = document.createElement("div");
   c = document.createAttribute("class");
   c.value = "eachCard";
@@ -120,11 +124,18 @@ function renderItem(title, url, thumb) {
   a.style.backgroundImage =
     "url(" +
     thumb +
-    "), linear-gradient(to left,rgba(0,0,0,0.3), rgba(0,0,0,0.8))";
+    "), linear-gradient(90deg, rgb(0,0,0,0.7), rgb(0,0,0,0.3))";
   projecturl.appendChild(projectTitle);
   projecturl.appendChild(arrow);
   a.appendChild(projecturl);
   card.appendChild(a);
   let divWork = document.querySelectorAll("#cards > .eachCard");
   console.log(divWork);
+}
+
+function myReload() {
+  // let divWork = document.querySelector("#cards");
+  let divWork = document.querySelector("#salad");
+  // divWork.forEach((el) => el.remove());
+  window.location.reload();
 }

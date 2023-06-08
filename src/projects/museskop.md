@@ -4,11 +4,8 @@ projprov: This is the project provocation
 chip_tech: Image based AI
 chip_culture: art
 chip_extra: lab
-tags:
-  - playful
+ingredients:
   - experimental
-  - meaningful
-  - diverse
 featimg: /img/uploads/museskop.jpg
 client: Self
 projctx: this is the context
@@ -23,6 +20,7 @@ chips:
   - generative text
   - AI
 layout: layouts/project.njk
+project_videos: none
 relprojprov: the prov
 relprojlink: The%20Last%20Poet/
 relprojimg: /img/uploads/TLP-intro+page.png
@@ -41,6 +39,11 @@ projdet:
     - yugen
     - anjana
     - tinu
+tags:
+  - playful
+  - experimental
+  - meaningful
+  - diverse
 ---
 
 testing the projects content write up

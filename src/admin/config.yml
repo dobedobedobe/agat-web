@@ -16,16 +16,28 @@ collections:
     create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Project Provocation", name: "projprov", widget: "string"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Project Provocation", name: "projprov", widget: "string" }
       - label: "Chip Tech"
         name: "chip_tech"
         widget: "select"
-        options: ["generative text", "threejs", "interactive data representaton", "generative ASCII art", "Image based AI", "interactive game", "interactive phone IVR", "Emerging Tech", "Creative Tech"]
+        options:
+          [
+            "generative text",
+            "threejs",
+            "interactive data representaton",
+            "generative ASCII art",
+            "Image based AI",
+            "interactive game",
+            "interactive phone IVR",
+            "Emerging Tech",
+            "Creative Tech",
+          ]
       - label: "Chip Culture"
         name: "chip_culture"
         widget: "select"
-        options: ["literature", "theatre", "museum", "architecture", "art", "youth"]
+        options:
+          ["literature", "theatre", "museum", "architecture", "art", "youth"]
       - label: "Chip Extra"
         name: "chip_extra"
         widget: "select"
@@ -34,35 +46,87 @@ collections:
         name: "ingredients"
         widget: "select"
         multiple: true
-        options: ["playful","experimental","inclusive","emergent","emotional","storytelling","tribe","meaningful","repurpose","participatory","friendly","diverse","whimsy"]
-      - {label: "Featured Image", name: "featimg", widget: "image"}
-      - {label: "Client", name: "client", widget: "string"}
+        options:
+          [
+            "playful",
+            "experimental",
+            "inclusive",
+            "emergent",
+            "emotional",
+            "storytelling",
+            "tribe",
+            "meaningful",
+            "repurpose",
+            "participatory",
+            "friendly",
+            "diverse",
+            "whimsy",
+          ]
+      - { label: "Featured Image", name: "featimg", widget: "image" }
+      - { label: "Client", name: "client", widget: "string" }
       - label: "Delivery"
         name: "delivery"
         widget: "list"
         collapsed: false
         fields:
-          - {label: "Delivery", name: "delivery", widget: "string"}
+          - { label: "Delivery", name: "delivery", widget: "string" }
       - label: "Collaborators"
         name: "collaborators"
         widget: "list"
         collapsed: false
         fields:
-          - {label: "Collaborators", name: "collaborators", widget: "string"}
-      - { label: 'Call to action category', name: 'ctaCategory', widget: 'relation',  collection: 'colabs', search_fields: ["colabslist"], value_field: "colabslist.*",  display_fields: ["colabslist"]}
-      - {label: "Project Context", name: "projctx", widget: "string"}
+          - { label: "Collaborators", name: "collaborators", widget: "string" }
+      - {
+          label: "Call to action category",
+          name: "ctaCategory",
+          widget: "relation",
+          collection: "colabs",
+          search_fields: ["colabslist"],
+          value_field: "colabslist.*",
+          display_fields: ["colabslist"],
+          required: false,
+        }
+      - { label: "Project Context", name: "projctx", widget: "string" }
       - label: "Project images"
         name: "projimg"
         widget: "list"
         fields:
-          - {label: "project images", name: "img", widget: "image", required: false, hint: "Image should be 16:9"}
-          - {label: "project caption", name: "caption", widget: "string", required: false, hint: "Image should be 16:9"}
-      - {label: "project videos", name: "project_videos", widget: "string", required: false, hint: "add video links"}
-      - {label: "Related Project", name: "relprojname", widget: "string"}
-      - {label: "Related Project Provocation", name: "relprojprov", widget: "string"}
-      - {label: "Related Project Link", name: "relprojlink", widget: "string"}
-      - {label: "Related Project Image", name: "relprojimg", widget: "image", required: false}
-      - {label: "Project Detail", name: "body", widget: "markdown"}
+          - {
+              label: "project images",
+              name: "img",
+              widget: "image",
+              required: false,
+              hint: "Image should be 16:9",
+            }
+          - {
+              label: "project caption",
+              name: "caption",
+              widget: "string",
+              required: false,
+              hint: "Image should be 16:9",
+            }
+      - {
+          label: "project videos",
+          name: "project_videos",
+          widget: "string",
+          required: false,
+          default: "none",
+          hint: "add video links, replace the word watch in the youtube link with embed in the same hyperlink. If there is no video link please use the words 'none' leaving it blank will break the page",
+        }
+      - { label: "Related Project", name: "relprojname", widget: "string" }
+      - {
+          label: "Related Project Provocation",
+          name: "relprojprov",
+          widget: "string",
+        }
+      - { label: "Related Project Link", name: "relprojlink", widget: "string" }
+      - {
+          label: "Related Project Image",
+          name: "relprojimg",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Project Detail", name: "body", widget: "markdown" }
   - label: "Pages"
     name: "pages"
     files:
@@ -70,29 +134,29 @@ collections:
         name: "about"
         file: "_data/about.yaml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Point Culture, name: point_culture, widget: string}
-          - {label: Point Tech, name: point_tech, widget: string}
-          - {label: Point Inclusion, name: point_inclusion, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
+          - { label: Title, name: title, widget: string }
+          - { label: Point Culture, name: point_culture, widget: string }
+          - { label: Point Tech, name: point_tech, widget: string }
+          - { label: Point Inclusion, name: point_inclusion, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
           - label: Team
             name: team
             widget: list
             collapsed: false
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Bio, name: bio, widget: string}
-              - {label: Photo, name: photo, widget: image}
-              - {label: Link, name: link, widget: string}
+              - { label: Name, name: name, widget: string }
+              - { label: Bio, name: bio, widget: string }
+              - { label: Photo, name: photo, widget: image }
+              - { label: Link, name: link, widget: string }
           - label: Collaborators
             name: collaborators
             widget: list
             collapsed: false
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Bio, name: bio, widget: string}
-              - {label: Photo, name: photo, widget: image}
-              - {label: Link, name: link, widget: string}
+              - { label: Name, name: name, widget: string }
+              - { label: Bio, name: bio, widget: string }
+              - { label: Photo, name: photo, widget: image }
+              - { label: Link, name: link, widget: string }
   - label: "colabs"
     name: "colabs"
     files:
@@ -105,7 +169,7 @@ collections:
             widget: list
             collapsed: false
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Bio, name: bio, widget: string}
-              - {label: Photo, name: photo, widget: image}
-              - {label: Link, name: link, widget: string}
+              - { label: Name, name: name, widget: string }
+              - { label: Bio, name: bio, widget: string }
+              - { label: Photo, name: photo, widget: image }
+              - { label: Link, name: link, widget: string }
