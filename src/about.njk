@@ -13,17 +13,17 @@ layout: layouts/base.njk
     <div>WHO WE ARE</div>
     <div>
         {% for who in about.team %}
-        <h1 class="">{{ who.name }}</h1>
-        <p class="">{{ who.bio }}</p>
-        <img src="{{ who.photo }}" alt="{{who.name}}">
-        <a href="{{ who.link }}" target="_blank">Website</a>
+            <h1 class="">{{ who.name }}</h1>
+            <p class="">{{ who.bio }}</p>
+            <img src="{{ who.photo }}" alt="{{who.name}}">
+            <a href="{{ who.link }}" target="_blank">Website</a>
         {% endfor %}
     </div>
-     <div>
+    <div>
         {% for who in about.collaborators %}
-        <h1 class="">{{ who.name }}</h1>
-        <p class="">{{ who.bio }}</p>
-        <img src="{{ who.photo }}" alt="{{who.name}}">
-        <a href="{{ who.link }}" target="_blank">Website</a>
+            <h1 class="">{{ who.name }}</h1>
+            <p class="">{{ who.bio }}</p>
+            <img src="{{ who.photo }}" alt="{{who.name}}">
+            <a href="{{ who.link }}" target="_blank">Website</a>
         {% endfor %}
     </div>

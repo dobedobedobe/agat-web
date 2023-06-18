@@ -1,6 +1,7 @@
 const htmlmin = require("html-minifier");
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 // const faviconsPlugin = require("eleventy-plugin-gen-favicons");
+const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
   /**
@@ -16,6 +17,7 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addPlugin(faviconsPlugin, {
   //   outputDir: "./_site",
   // });
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy({
