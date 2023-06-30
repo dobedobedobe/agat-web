@@ -1,5 +1,5 @@
 ---
-title: The Last Poet
+title: Balls
 projprov: This is the project provocation
 chip_tech: threejs
 chip_culture: theatre
@@ -48,13 +48,14 @@ tags:
   - storytelling
   - whimsy
 ---
+
 <!--StartFragment-->
 
 ## T﻿HE ATMOSPHERE
 
 As the audience enters our virtual theatre, they encounter a visually stunning and ever-changing space. The generative algorithm that forms the foundation of the virtual environment ensures that each visit unveils a unique visual experience. Within this mesmerizing whirlwind of rooms and floating boxes, the audience is transported to different points in the space, creating a sense of exploration and discovery.
 
-## T﻿HE STORYLINES 
+## T﻿HE STORYLINES
 
 The heart of the experience lies in the interconnected storylines presented by different characters. Regardless of the order in which the audience engages with the performers' virtual live rooms, they are guaranteed a complete and meaningful experience. Each user's journey is carefully designed to offer a different perspective on the lost poet's story. With approximately 125 possible user journeys, the audience embarks on a personalised adventure, seamlessly transitioning between the diverse characters' narratives.
 
