@@ -4,100 +4,46 @@ layout: layouts/base.njk
 permalink: "work/{{ title }}/index.html"
 
 ---
-<div class="flex flex-col font-work snap-proximity snap-y">
-    <div class="-mt-[4rem] md:-mt-[4.25rem] lg:-mt-[4.25rem] xl:-mt-[4.25rem] 2xl:-mt-[4.25rem] -z-10 flex flex-col justify-center header  bg-cover bg-center h-screen bg-blend-darken snap-center" style="
-    background-image: url('{{featimg}}'), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
-">
+<div class="flex flex-col font-work snap-proximity snap-y text-white">
+    <div class="-z-10 flex flex-col justify-center header  bg-cover bg-center bg-blend-darken snap-center mb-8"  >
         {# <img src="{{featimg}}" class="-z-20"> #}
-        <div class="ml-8 md:ml-56 lg:ml-56 xl:ml-56 2xl:ml-56">
-            <h1 class="text-white text-7xl font-bold">{{title}}</h1>
-            <p class="text-white text-2xl font-regular">{{projprov}}</p>
+        <div class="px-5 mx-auto text-center">
+            <h1 class="text-white text-6xl font-bold">{{title}}</h1>
+            {# <p class="text-white text-2xl font-regular">{{projprov}}</p> #}
         </div>
     </div>
-    <div class="seebelow z-20">
-        <p class="text-white font-regular text-md mx-auto text-center -mt-8">PROJECT DETAILS</p>
-        <p class="text-white font-regular text-sm mx-auto text-center -mt-2">|</p>
-    </div>
 
-    <div class="main py-3 lg:py-16 xl:py-16 2xl:py-16 flex flex-col lg:flex-row xl:flex-row 2xl:flex-row w-full justify-evenly items-center lg:items-start xl:items-start 2xl:items-start">
-        <div class="chips ">
-            <ul class="mb-8 flex flex-row lg:flex-col xl:flex-col 2xl:flex-col">
-                {# <span class="">{{ post.data.chip_tech }}</span> #}
-                <li class="text-sm place-self-center text-center w-32 m-1 p-1 bg-gray-100">{{ chip_tech }}</li>
-                <li class="text-sm place-self-center text-center w-32 m-1 p-1 bg-gray-100">{{ chip_culture }}</li>
-                <li class="text-sm place-self-center text-center w-32 m-1 p-1 bg-gray-100">{{ chip_extra }}</li>
-                {# {%- endfor -%} #}
-            </ul>
-        </div>
-        <div class="details flex flex-col md:space-x-8 lg:space-x-8 xl:space-x-8 2xl:space-x-8 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row space-y-4 md:space-y-0 lg:space-y-0 xl:space-y-0 2xl:space-y-0 snap-center">
-            {# px-16 my-16 #}
-            <div class="client-delivery space-y-4">
-                <div class="client">
-                    <p class="text-2xl font-extralight">CLIENT</p>
-                    <p class="text-xl font-regular capitalize">{{client}}</p>
-                </div>
+    <div class="main flex flex-col flex-wrap justify-evenly items-center snap-center">
 
-                <div class="delivery">
-                    <p class="text-2xl font-extralight">DELIVERY</p>
-                    <ul class="text-lg font-regular list-none capitalize">
-                        {%- for tasks in delivery -%}
-                            <li class="">{{ tasks.delivery }}</li>
-                        {%- endfor -%}
-                    </ul>
-                </div>
-            </div>
-            <div class="collab-list">
-                <div class="collaborators">
-                    <p class="text-2xl font-extralight">COLLABORATORS</p>
-                    <ul class="text-lg font-regular list-none capitalize">
-                        {%- for person in collaborators -%}
-                            <li>{{ person.collaborators }}</li>
-                        {%- endfor -%}
-                    </ul>
-                </div>
-            </div>
-        </div>
+        {# px-16 my-16 #}
 
-    </div>
-    <div class="section2 px-10 lg:my-16 xl:my-16 2xl:my-16 lg:w-1/2 xl:w-1/2 2xl:w-1/2 lg:mx-auto xl:mx-auto 2xl:mx-auto flex flex-col  justify-evenly items-center lg:items-start xl:items-start 2xl:items-start snap-center">
-        <div class="context mb-8 lg:mx-20 xl:mx-20 2xl:mx-20 content-center">
-            <p class="text-2xl font-bold text-gray-400">{{ projctx }}</p>
-        </div>
-
-        <div class="projectcontent mb-8 lg:mx-16 xl:mx-16 2xl:mx-16 content-center">
+        <div class="projectcontent content-center md:max-w-prose px-6">
             {% block content %}
-                <p class="text-xl">
+                <p class="text-2xl">
                     {{ content | safe }}</p>
             {% endblock %}
         </div>
-    </div>
-
-    {# {% if {{project_videos}} == true %} #}
-    <div class="vid  {{ 'hidden' if 'none' in project_videos }} snap-center">
-        <iframe class="w-full aspect-video" src="{{project_videos}}"></iframe>
-    </div>
-    {# {% endif %} #}
-    {# <p>SOME IMAGES</p> #}
-    <div class="bg-black py-12 flex flex-col flex-wrap lg:flex-row xl:flex-row 2xl:flex-row justify-evenly items-center snap-center">
-        {%- for img in projimg -%}
-            <div class="">
-                <img src="{{ img.img }}" alt="{{ img.caption }}" class="object-cover p-2 h-full w-[42rem]">
-                {# <p class="text-sm">{{ img.caption}}</p> #}
+        <div class="vid  {{ 'hidden' if 'none' in project_videos }} snap-center">
+            <iframe class="w-screen md:h-full md:w-[42rem] aspect-video" src="{{project_videos}}"></iframe>
+        </div>
+        {# {% endif %} #}
+        {# <p>SOME IMAGES</p> #}
+        <div class=" py-12 flex flex-col flex-wrap justify-evenly items-center snap-center">
+            {%- for img in projimg -%}
+                <div class="">
+                    <img src="{{ img.img }}" alt="{{ img.caption }}" class="object-cover p-2 h-full w-[42rem]">
+                    {# <p class="text-sm">{{ img.caption}}</p> #}
+                </div>
+                {%- endfor-%}
             </div>
-            {%- endfor-%}
+            <div class="collaborators px-5 ">
+                <p class="text-2xl font-extralight">COLLABORATORS</p>
+                <ul class="text-lg font-regular list-none capitalize">
+                    {%- for person in collaborators -%}
+                        <li>{{ person.collaborators }}</li>
+                    {%- endfor -%}
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="font-work justify-center nextproject flex flex-col lg:flex-row xl:flew-row 2xl:flex-row lg:max-h-56 xl:max-h-56 2xl:max-h-56 lg:place-items-center xl:place-items-center 2xl:place-items-center header  bg-cover bg-center h-screen p-8  bg-blend-darken snap-center" style="
-    background-image: url('{{relprojimg}}'), linear-gradient(to left,rgba(0,0,0,0.3), rgba(0,0,0,0.8)); 
-">
-        <p class="lg:w-1/3 xl:w-1/3 2xl:w-1/3 text-white my-2  lg:mx-8 xl:mx-8 2xl:mx-8 text-xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-semibold">Also see:</p>
-        <div class="lg:w-2/3 xl:w-2/3 2xl:w-2/3">
-            <a href="/work/{{ relprojlink}}">
-                <p class="text-white my-2 lg:mx-8 xl:mx-8 2xl:mx-8 text-6xl font-thin">{{ relprojname}}</p>
-                <p class="text-white my-2 lg:mx-8 xl:mx-8 2xl:mx-8 text-2xl font-regular italic">{{ relprojprov}}</p>
-            </a>
-        </div>
-        <div>
-            <img class="w-auto" src="/img/next-arrow.svg" alt="Next Project">
-        </div>
+
     </div>

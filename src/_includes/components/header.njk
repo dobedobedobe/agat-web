@@ -1,33 +1,14 @@
-<header class="font-work ">
+<header class="font-groto mb-5">
   <nav class="flex justify-between items-center py-4 mx-auto">
     <div>
       <h1 class="px-5">
-        <a href="/" class="z-50 text-xl {{ 'text-white' if tags.length > 0 }}">AJAIBGHAR</a>
+        <a href="/" class="z-50 text-4xl text-white">AGAT SHARMA</a>
       </h1>
     </div>
-    <div class="md:block hidden">
-      <h2  class="{{ 'text-white' if tags.length > 0 }} {% if page.url != '/' %}text-xs{% else %}text-6xl{%endif%} font-bold text-center px-3 leading-snug md:text-3xl lg:text-3xl xl:text-3xl 2xl:text-3xl">A <span class="text-teal-500 -skew-y-3">studio</span> for <span class="bg-yellow-500 -skew-y-3">art</span>, <span class="bg-yellow-500 -skew-y-3">technology</span> &#38; <span class="bg-yellow-500 -skew-y-3">futures</span></h2>
-    </div>
-    <div class="{{ 'text-white' if tags.length > 0 }} nav-links duration-500 md:static absolute backdrop-blur-xl bg-white/30 md:bg-transparent lg:bg-transparent xl:bg-transparent 2xl:bg-transparent text-4xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl  max-h-screen	md:min-h-fit min-h-[90vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
-      <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-        <li class="">
-          <a href="/about" class="" aria-current="page">About</a>
-        </li>
-        <li  class="">
-          <a href="/work" class="">Work</a>
-        </li>
-        <li  class="">
-          <a href="/letstalk" class="">Let's Talk</a>
-        </li>
-      </ul>
-    </div>
-    <div class="flex md:hidden lg:hidden xl:hidden 2xl:hidden items-center gap-6">
-      <ion-icon onclick="onToggleMenu(this)" name="menu" class="mr-4 text-3xl cursor-pointer md:hidde" style="
-  color: {{ 'white' if tags.length > 0 }};"></ion-icon>
-    </div>
+
   </header>
 
-  <script>
+  {# <script>
 
     const navLinks = document.querySelector('.nav-links')
     function onToggleMenu(e) {
@@ -38,4 +19,4 @@
         .classList
         .toggle('top-[0]')
     }
-  </script>
+  </script> #}

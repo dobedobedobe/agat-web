@@ -6,7 +6,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      work: ["Work Sans", "sans-serif"],
+      work: ["Space Mono", "monospace"],
+      groto: ["Space Grotesk", "sans-serif"],
     },
     fontWeight: {
       thin: "100",
