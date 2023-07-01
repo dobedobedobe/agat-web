@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       work: ["Space Mono", "monospace"],
       groto: ["Space Grotesk", "sans-serif"],
+      dink: ['Courier Prime', "monospace"],
     },
     fontWeight: {
       thin: "100",
