@@ -17,8 +17,10 @@ In the story, Ruru and Suka are two children who are chosen to undertake an epic
 
 White Gold is part of a long term research project about the history of cotton farming in India. Since 1995, 400,000 farmer suicides have taken place in India. The cotton farming community is the worst affected by this wave of suicides that are a result of complex social, economic and political reasons. Cotton was proverbially called White Gold in the commodity market. 
 
-Made as Intimidation Tactics with George Demetriou, Julia van der Putten and Naomi Collier Broms by Agat Sharma
 
-In collaboration with Laura Boser, Yunus Bilir, Maria Mavridou, Sipan Sezgin Tekin. 
 
-Advisors : Computational Mama and Marijn Lems
+Made as Intimidation Tactics with: George Demetriou, Julia van der Putten and Naomi Collier Broms by Agat Sharma
+
+In collaboration with: Laura Boser, Yunus Bilir, Maria Mavridou, Sipan Sezgin Tekin
+
+Advisors: Computational Mama and Marijn Lems
