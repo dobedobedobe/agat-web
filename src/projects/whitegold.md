@@ -1,25 +1,23 @@
 ---
 title: White Gold
-featimg: /img/uploads/contagion.png
-collaborators:
-  - collaborators: Anushka
+featimg: /img/uploads/tml20230526_76733.jpg
+collaborators: []
 projimg:
-  - img: /img/uploads/contagion.png
-    caption: image 1
-  - img: /img/uploads/contagionLP.gif
-    caption: image 2
-  - img: /img/uploads/contagion-horizontal-scroll.gif
-  - img: /img/uploads/contagion-bilingual.gif
+  - img: /img/uploads/tml20230526_77217.jpg
+  - img: /img/uploads/tml20230526_77104.jpg
+  - img: /img/uploads/tml20230526_77394.jpg
+  - img: /img/uploads/tml20230526_77621.jpg
 layout: layouts/project.njk
 project_videos: none
 ---
+White Gold is a restaging of a traditional folk performance from the Cotton growing regions of Central India. The performance takes place every year in the month of May just before the sowing season begins with the arrival of rain in June. For five consecutive nights the ancient tale of Ruru, Suka and Larynx is performed by the farming community in their unique theatrical style.
 
-<!--StartFragment-->
+In the story, Ruru and Suka are two children who are chosen to undertake an epic journey across the Earth to restore their lands that have been disturbed by the untimely landing of an alien Larynx.
 
-Commissioned by Science Gallery Bangalore during the peak of the COVID-19 pandemic, this virtual exhibition was an exploration of contagious diseases across history and around the world, encompassing not only physical ailments but also the transmission of ideas and emotions. With a vast and detailed corpus of projects delving into different aspects of contagion, the exhibition aimed to showcase their interconnectedness, setting the visitor on multiple possible pathways of exploration.
+White Gold is part of a long term research project about the history of cotton farming in India. Since 1995, 400,000 farmer suicides have taken place in India. The cotton farming community is the worst affected by this wave of suicides that are a result of complex social, economic and political reasons. Cotton was proverbially called White Gold in the commodity market. 
 
-When visitors engage with the ‘Contagion’ exhibition, they embark on a captivating journey of discovery. The exhibition's interactive front page serves as an intriguing gateway, playfully introducing visitors to the concepts and ideas explored within. As visitors delve deeper, they encounter a rich tapestry of content, meticulously curated and interconnected. Each project offers a unique perspective, incorporating diverse mediums such as books, audios, podcasts, games, and reading lists. The exhibition's design encourages exploration, inviting users to follow linkages and pathways that lead them from one project to another, creating a sense of interconnectedness and serendipitous discovery.
+Made as Intimidation Tactics with George Demetriou, Julia van der Putten and Naomi Collier Broms by Agat Sharma
 
-Whether accessing the exhibition from a desktop, tablet, or smartphone, visitors can navigate the website, watch videos, and engage with interactive artworks without any hindrance. This achievement was made possible through rigorous testing, a smart technology stack, and an efficient content management system that facilitated the seamless delivery of the exhibition's diverse components. By transcending device limitations and incorporating bilinguality in the website, the exhibition offers a truly accessible and inclusive experience to the audiences to explore the intricate layers of contagious diseases, their history & their far-reaching effects.
+In collaboration with Laura Boser, Yunus Bilir, Maria Mavridou, Sipan Sezgin Tekin. 
 
-<!--EndFragment-->
+Advisors : Computational Mama and Marijn Lems
