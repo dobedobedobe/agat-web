@@ -3,8 +3,8 @@ title: White Gold
 featimg: /img/uploads/tml20230526_76733.jpg
 collaborators: []
 projimg:
-  - img: /img/uploads/tml20230526_77217.jpg
-  - img: /img/uploads/tml20230526_77104.jpg
+  - img: /img/uploads/tml20230526_76733.jpg
+  - img: /img/uploads/tml20230526_76808.jpg
   - img: /img/uploads/tml20230526_77394.jpg
   - img: /img/uploads/tml20230526_77621.jpg
 layout: layouts/project.njk
