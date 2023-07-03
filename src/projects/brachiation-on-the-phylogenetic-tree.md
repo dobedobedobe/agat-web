@@ -1,6 +1,6 @@
 ---
 title: Brachiation on the Phylogenetic Tree
-featimg: /img/uploads/cicadina.png
+featimg: /img/uploads/screen-shot-2020-11-05-at-4.55.34-pm.png
 projimg:
   - {}
 project_videos: none
