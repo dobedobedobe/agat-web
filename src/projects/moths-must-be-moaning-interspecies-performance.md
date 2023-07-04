@@ -4,7 +4,7 @@ featimg: /img/uploads/pink_bollworm.jpg
 collaborators:
   - collaborators: Emily Burdfield-Steele
   - collaborators: Julia van der Putten
-  - collaborators: Agat Sharma
+  - collaborators: Intimidation Tactics
 projimg:
   - img: /img/uploads/pectinophora_gossypiella_5006025.jpg
 project_videos: none
