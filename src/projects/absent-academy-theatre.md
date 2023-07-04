@@ -1,5 +1,5 @@
 ---
-title: "Absent Academy // theatre "
+title: Absent Academy [theatre]
 featimg: /img/uploads/absent-academy-small.jpg
 collaborators:
   - collaborators: Sipan Sezgin
