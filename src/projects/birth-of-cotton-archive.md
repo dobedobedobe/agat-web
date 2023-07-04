@@ -1,5 +1,5 @@
 ---
-title: Birth of cotton archive
+title: Birth of Cotton ~ ~ installation
 featimg: /img/uploads/tml20230527_79020.jpg
 collaborators:
   - collaborators: Julia van der Putten
