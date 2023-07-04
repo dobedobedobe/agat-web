@@ -1,5 +1,5 @@
 ---
-title: Brachiation on the Phylogenetic Tree [participatory performance]
+title: Brachiation on the Phylogenetic Tree [performance]
 featimg: /img/uploads/screen-shot-2020-11-05-at-4.55.34-pm.png
 projimg:
   - img: /img/uploads/217306557_4293547454024678_7125816223818688459_n.jpg
