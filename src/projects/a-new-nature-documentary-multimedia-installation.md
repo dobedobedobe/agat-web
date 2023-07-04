@@ -6,9 +6,9 @@ collaborators:
   - collaborators: George Demetriou
   - collaborators: Julia van der Putten
 projimg:
-  - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides-1-.jpg
   - img: /img/uploads/dialogue-slides.jpg
+  - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
 project_videos: none
 ---
 *Sir David Attenborough wanders in a toxic landscape with weird mutant species while he is shooting his latest nature documentary. This multimedia installation uses AI image manipulation and AI voice generation. It explores the emergence of new forms of nature. Narrated by the distinct whispering voice of Sir David Attenborough, generated using an AI text-to-speech model.*
