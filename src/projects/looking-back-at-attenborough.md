@@ -1,6 +1,12 @@
 ---
 title: Elizabeth-2 Ensemble ~ ~ work in progress
 featimg: /img/uploads/tml20230524_75302.jpg
+collaborators:
+  - collaborators: Laura Boser
+  - collaborators: Computational Mama
+  - collaborators: Julia van der Putten
+  - collaborators: Carolien Teunisse
+  - collaborators: Jered Vroon
 projimg:
   - img: /img/uploads/tml20230524_75130.jpg
   - img: /img/uploads/tml20230524_75302.jpg
