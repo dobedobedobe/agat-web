@@ -19,4 +19,6 @@ The multimedia installation is a collection of speculative narrations in the AI 
 
 The use of AI to generate David Attenborough's voice creates an uncanny space where truth is traded for believability. This hopefully opens up an uncanny space where we can doubt and question the colonial and extractive dimension of mediatisation of nature.
 
+
+
 Made as Intimidation Tactics with Naomi Collier Broms, Computational Mama, George Demetriou, Julia van der Putten
