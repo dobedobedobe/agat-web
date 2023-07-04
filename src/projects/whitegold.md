@@ -1,7 +1,14 @@
 ---
-title: White Gold
+title: White Gold ~ ~ theatre performance
 featimg: /img/uploads/tml20230526_76733.jpg
-collaborators: []
+collaborators:
+  - collaborators: Yunus Bilir
+  - collaborators: Laura Boser
+  - collaborators: Naomi Collier Broms
+  - collaborators: George Demetriou
+  - collaborators: Maria Mavridou
+  - collaborators: Julia van der Putten
+  - collaborators: Sipan Sezgin Tekin
 projimg:
   - img: /img/uploads/tml20230526_76808.jpg
   - img: /img/uploads/tml20230526_76780.jpg
