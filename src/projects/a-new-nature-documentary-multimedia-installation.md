@@ -1,5 +1,5 @@
 ---
-title: A New-Nature Documentary [multimedia installation]
+title: A New-Nature Documentary [installation]
 featimg: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
 collaborators:
   - collaborators: Naomi Collier Broms
