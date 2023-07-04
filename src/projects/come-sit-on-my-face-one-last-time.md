@@ -1,5 +1,5 @@
 ---
-title: Come sit on my face one last time // theatrical concert
+title: Come sit on my face one last time [theatrical concert]
 featimg: /img/uploads/tml20220617_28689.jpg
 collaborators:
   - collaborators: George Demetriou
