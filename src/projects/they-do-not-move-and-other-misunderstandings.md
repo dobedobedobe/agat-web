@@ -1,5 +1,5 @@
 ---
-title: "They Do Not Move And Other Misunderstandings ~ ~ theatre "
+title: "They Do Not Move And Other Misunderstandings // theatre "
 featimg: /img/uploads/img_1101.jpg
 projimg:
   - img: /img/uploads/whatsapp-image-2018-09-12-at-8.00.12-pm.jpeg
