@@ -1,8 +1,12 @@
 ---
 title: Birth of cotton archive
 featimg: /img/uploads/tml20230527_79020.jpg
+collaborators:
+  - collaborators: Julia van der Putten
+  - collaborators: Naomi Collier Broms
 projimg:
   - img: /img/uploads/tml20230527_79020.jpg
+  - img: /img/uploads/tml20230527_79016.jpg
   - img: /img/uploads/tml20230527_79024.jpg
 project_videos: none
 ---
