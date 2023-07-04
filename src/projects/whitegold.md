@@ -9,6 +9,7 @@ collaborators:
   - collaborators: Maria Mavridou
   - collaborators: Julia van der Putten
   - collaborators: Sipan Sezgin Tekin
+  - collaborators: Intimidation Tactics
 projimg:
   - img: /img/uploads/tml20230526_76808.jpg
   - img: /img/uploads/tml20230526_76780.jpg
