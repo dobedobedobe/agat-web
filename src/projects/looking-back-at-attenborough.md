@@ -7,6 +7,7 @@ collaborators:
   - collaborators: Julia van der Putten
   - collaborators: Carolien Teunisse
   - collaborators: Jered Vroon
+  - collaborators: Intimidation Tactics
 projimg:
   - img: /img/uploads/tml20230524_75130.jpg
   - img: /img/uploads/tml20230524_75302.jpg
