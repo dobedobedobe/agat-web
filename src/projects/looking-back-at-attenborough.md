@@ -9,14 +9,4 @@ project_videos: none
 ---
 *Elizabeth-2 Ensemble is the experimental unit of Intimidation Tactics exploring the intersections between colonialism, advanced imaging technology and speculative ritual.*
 
-
-
-**C﻿redits**
-
-C﻿oncept: Agat Sharma, Julia van der Putten
-
-P﻿erformance: Laura Boser
-
-Visuals: Carolien Teunisse
-
-S﻿table Diffusion implementation: C﻿omputational Mama
+In collaboration with Laura Boser (performance), C﻿omputational Mama (generative AI), Julia van der Putten (dramaturgy), Carolien Teunisse (visuals), Jered Vroon (robotics)
