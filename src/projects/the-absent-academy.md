@@ -1,5 +1,5 @@
 ---
-title: Absent Academy
+title: Absent Academy ~ ~ performance
 featimg: /img/uploads/absent-academy-small.jpg
 collaborators:
   - collaborators: Sipan Sezgin
