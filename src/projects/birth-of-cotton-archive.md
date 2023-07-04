@@ -7,6 +7,7 @@ collaborators:
 projimg:
   - img: /img/uploads/tml20230527_79020.jpg
   - img: /img/uploads/tml20230527_79024.jpg
+  - img: /img/uploads/tml20230527_79016.jpg
 project_videos: none
 ---
 Birth of Cotton is an archive of a two year research into the Indian cotton crisis by Intimidation Tactics. The crisis entails the largest recorded wave of suicides in the world: since 1995 over 400.000 farmers have taken their own lives. Many of  them are cotton farmers. How the fuck did we end up here? 
