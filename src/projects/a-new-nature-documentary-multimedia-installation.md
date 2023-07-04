@@ -5,6 +5,7 @@ collaborators:
   - collaborators: Naomi Collier Broms
   - collaborators: George Demetriou
   - collaborators: Julia van der Putten
+  - collaborators: Intimidation Tactics
 projimg:
   - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides-1-.jpg
