@@ -6,6 +6,7 @@ collaborators:
   - collaborators: George Demetriou
   - collaborators: Julia van der Putten
   - collaborators: Intimidation Tactics
+  - collaborators: Computational Mama
 projimg:
   - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides-1-.jpg
@@ -18,6 +19,4 @@ The multimedia installation is a collection of speculative narrations in the AI 
 
 The use of AI to generate David Attenborough's voice creates an uncanny space where truth is traded for believability. This hopefully opens up an uncanny space where we can doubt and question the colonial and extractive dimension of mediatisation of nature.
 
-
-
-Made as Intimidation Tactics with Julia van der Putten, George Demetriou, Naomi Collier Broms
+Made as Intimidation Tactics with Naomi Collier Broms, Computational Mama, George Demetriou, Julia van der Putten
