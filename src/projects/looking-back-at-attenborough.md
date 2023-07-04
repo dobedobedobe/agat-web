@@ -1,5 +1,5 @@
 ---
-title: Elizabeth-2 Ensemble [research in progress]
+title: Elizabeth-2 Ensemble [performance]
 featimg: /img/uploads/tml20230524_75302.jpg
 collaborators:
   - collaborators: Laura Boser
