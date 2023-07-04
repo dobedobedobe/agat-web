@@ -16,6 +16,8 @@ project_videos: none
 
 The work is set up in the form of a techno-synth pop concert about the future of nature and the human-race that lasts exactly 30 minutes. What does it mean to share this temporality with the farmer? In which way can we locate ourselves in relation to this crisis? This is not an attempt to propose a solution to the crisis. This is not a call to action. It is not a commentary or an explanation. At best it is an attempt to digest what we already know is true, it is a forecasting, a mythical prophecy from the deep past and near future.
 
+
+
 Made as Intimidation Tactics with: George Demetriou, Julia van der Putten and Agat Sharma
 
 P﻿erformed by Jurgen Unom Gario, for *Despair is too Easy* (NTGent/Théâtre de Liège), November 2022
