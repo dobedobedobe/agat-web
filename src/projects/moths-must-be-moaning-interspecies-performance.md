@@ -1,5 +1,5 @@
 ---
-title: Moths must be moaning [interspecies performance]
+title: Moths must be moaning [performance]
 featimg: /img/uploads/pink_bollworm.jpg
 collaborators:
   - collaborators: Emily Burdfield-Steele
