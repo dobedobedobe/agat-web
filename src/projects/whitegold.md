@@ -1,5 +1,5 @@
 ---
-title: "White Gold // theatre "
+title: "White Gold [theatre] "
 featimg: /img/uploads/tml20230526_76733.jpg
 collaborators:
   - collaborators: Yunus Bilir
