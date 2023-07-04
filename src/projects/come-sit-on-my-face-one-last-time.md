@@ -1,10 +1,11 @@
 ---
 title: Come sit on my face one last time
-featimg: /img/uploads/tml20220617_28680.jpg
+featimg: /img/uploads/tml20220617_28689.jpg
 projimg:
   - img: /img/uploads/tml20220617_28689.jpg
   - img: /img/uploads/tml20220617_28656.jpg
   - img: /img/uploads/tml20220617_28680.jpg
+  - img: /img/uploads/tml20220617_28647.jpg
 project_videos: none
 ---
 *Come sit on my face one last time is a concert, set within the context of the cotton farming crisis in India. S﻿ince the 1990's the largest wave of recorded suicides has taken place in the Indian farming community. Over 400,000 farmers have killed themselves. This is reflected in the tragic statistical truth that, 'Every 30 minutes a farmer kills themselves in India.' During the performance we investigate the meaning of this statistical expression and witness what it means for us to live in a world where farmers are left with no choice but to consider their own death.*
