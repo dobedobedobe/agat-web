@@ -12,7 +12,7 @@ projimg:
   - img: /img/uploads/dialogue-slides.jpg
 project_videos: none
 ---
-Sir David Attenborough wanders in a toxic landscape with weird mutant species while he is shooting his latest nature documentary.
+*Sir David Attenborough wanders in a toxic landscape with weird mutant species while he is shooting his latest nature documentary.*
 
 The spectator is invited to watch Sir David Attenborough's latest documentary set in a remote area in the cotton growing region of Central India. Here new forms of nature are emerging, due to the use of agrochemicals and pesticides: evolution at light speed. Only the installation doesn't show the usual spectacular cinematic imagery we associate with his documentaries. In the darkened space we solely hear his whispering voice accompanied by a dramatic cinematic score that conjures up our imaginations of the Wild. Parallelly we see the story of the documentary crew unfold on the large screen where their voices appear as graphic textual elements.
 
