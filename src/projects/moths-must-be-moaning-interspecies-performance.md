@@ -4,9 +4,8 @@ featimg: /img/uploads/pink_bollworm.jpg
 collaborators:
   - collaborators: Emily Burdfield-Steele
   - collaborators: Julia van der Putten
-  - collaborators: Intimidation Tactics
 projimg:
-  - img: /img/uploads/pectinophora_gossypiella_5006025.jpg
+  - img: /img/uploads/pink_bollworm.jpg
 project_videos: none
 ---
 *The theatre is dark besides a few red lights. On one side of the stage there is a small fan, blowing at low speed. On the left we see two actors next to a rack filled with small plastic cups. In each of these a moth was bred. One of the actors opens the lid from a cup and takes out the moth. Gently she lets the moth acclimatize to its surroundings on the tip of her index finger. A very gentle draft from the pheromone lure flows in the direction of the moth. You can see the moth slowly flapping its wings. The flapping soon transforms into an elegant wing movement. In a very characteristic swerving motion, it glides and then perches on the pheromone lure. The simplicity of this pure act of nature is subliminal. Very soon there are ten moths on each fingertip. They all take off simultaneously, forming a complex synchronous flying pattern, landing together on the lure. The flying moths command the attention of the audience. It’s perfect.* 
