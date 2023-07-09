@@ -4,7 +4,6 @@ featimg: /img/uploads/tml20230527_79020.jpg
 collaborators:
   - collaborators: Julia van der Putten
   - collaborators: Naomi Collier Broms
-  - collaborators: Intimidation Tactics
 projimg:
   - img: /img/uploads/tml20230527_79020.jpg
   - img: /img/uploads/tml20230527_79016.jpg
