@@ -9,11 +9,12 @@ collaborators:
 projimg:
   - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides.jpg
+  - {}
 project_videos: https://www.youtube.com/embed?v=yff9JuIJ4RY
 ---
 *a New-Nature Documentary narrated by Sir David Attenborough is a 45 minute video installation, where the audience is invited to listen to Sir David Attenborough as he is shooting his latest documentary.* 
 
-In the story Attenborough and his crew travel to a remote area in the cotton growing region of Central India. Due to the use of agrochemicals and pesticides new forms of nature are emerging. It is the evolution of nature at light speed, just waiting to be captured by the BBC’s latest technology. Only as they continue their shoot during the celebration of an ancient local festival, their plan ends up going awry.  
+In the story Attenborough and his crew travel to a remote area in the cotton growing region of Central India. Due to the use of agrochemicals and pesticides new forms of nature are emerging. It is the evolution of nature at light speed, just waiting to be captured by the BBC’s latest technology. Only as they continue their shoot during the celebration of an ancient local festival their plan goes awry... 
 
 The installation doesn't show the usual spectacular cinematic imagery we associate with Attenborough’s blockbuster documentaries. There is a large cinema screen but it remains black while Attenborough speaks. In the darkened space we solely hear his whispering voice accompanied by a dramatic cinematic score that conjures up our imaginations of the Wild. Parallelly we see the story of the documentary crew unfold on the screen where their voices appear as graphic textual elements. Through this juxtaposition we pose the question of what kind of stories and knowledges fall outside of the purview of the conventional science discovery narrative.
 
