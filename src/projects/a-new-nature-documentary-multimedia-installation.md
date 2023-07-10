@@ -9,7 +9,7 @@ collaborators:
 projimg:
   - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides.jpg
-project_videos: https://youtu.be/FHAdYs2W8s4
+project_videos: https://www.youtube.com/watch?v=yff9JuIJ4RY
 ---
 *a New-Nature Documentary narrated by Sir David Attenborough is a 45 minute video installation, where the audience is invited to listen to Sir David Attenborough as he is shooting his latest documentary.* 
 
