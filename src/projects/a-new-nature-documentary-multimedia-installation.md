@@ -23,6 +23,8 @@ What happens if one were to appropriate such a powerful voice through an AI text
 
 The use of AI to generate David Attenborough's voice creates an uncanny space where truth is traded for believability. This hopefully opens up an uncanny space where we can doubt and question the colonial and extractive dimension of mediatisation of nature. 
 
-Made as Intimidation Tactics with Naomi Collier Broms, Computational Mama, George Demetriou, Julia van der Putten
+Made as Intimidation Tactics with Naomi Collier Broms, Computational Mama, George Demetriou, Julia van der Putten. 
+
+A﻿I text to speech model based on: Betker, J. (2022). TorToiSe text-to-speech (Version 2.0) \[Computer software]. https://github.com/neonbjb/tortoise-tts
 
 A﻿ first audio only version of the work was presented at Future Fantastic Festival 2023 in Bangalore, India.
