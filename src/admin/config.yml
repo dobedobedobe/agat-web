@@ -51,3 +51,8 @@ collections:
           hint: "add video links, replace the word watch in the youtube link with embed in the same hyperlink. If there is no video link please use the words 'none' leaving it blank will break the page",
         }
       - { label: "Project Detail", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: Tags, name: tags, widget: "string" }
