@@ -11,6 +11,10 @@ projimg:
   - img: /img/uploads/dialogue-slides.jpg
   - {}
 project_videos: https://www.youtube.com/embed?v=yff9JuIJ4RY
+tags:
+  - AI
+  - Intimidation Tactics
+  - installation
 ---
 *a New-Nature Documentary narrated by Sir David Attenborough is a 45 minute video installation, where the audience is invited to listen to Sir David Attenborough as he is shooting his latest documentary.* 
 
