@@ -1,6 +1,8 @@
 ---
 title: A New-Nature Documentary narrated by Sir David Attenborough [installation]
 featimg: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
+category: installation
+author: I_T
 collaborators:
   - collaborators: Naomi Collier Broms
   - collaborators: George Demetriou
