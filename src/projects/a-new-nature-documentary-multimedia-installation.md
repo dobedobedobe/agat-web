@@ -13,14 +13,13 @@ projimg:
   - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides.jpg
   - {}
-project_videos:
+project_videos: null
 tags:
   - AI
   - Intimidation Tactics
   - installation
 ---
-
-_a New-Nature Documentary narrated by Sir David Attenborough is a 45 minute video installation, where the audience is invited to listen to Sir David Attenborough as he is shooting his latest documentary._
+*a New-Nature Documentary narrated by Sir David Attenborough is a 45 minute video installation, where the audience is invited to listen to Sir David Attenborough as he is shooting his latest documentary.*
 
 In the story Attenborough and his crew travel to a remote area in the cotton growing region of Central India. Due to the use of agrochemicals and pesticides new forms of nature are emerging. It is the evolution of nature at light speed, just waiting to be captured by the BBC’s latest technology. Only as they continue their shoot during the celebration of an ancient local festival their plan goes awry...
 
@@ -34,7 +33,7 @@ The use of AI to generate David Attenborough's voice creates an uncanny space wh
 
 Made as Intimidation Tactics with Naomi Collier Broms, Computational Mama, George Demetriou, Julia van der Putten.
 
-A﻿I text to speech model based on: Betker, J. (2022). TorToiSe text-to-speech (Version 2.0) \[Computer software]. https://github.com/neonbjb/tortoise-tts
+A﻿I text to speech model based on: Betker, J. (2022). TorToiSe text-to-speech (Version 2.0) \[Computer software]. <https://github.com/neonbjb/tortoise-tts>
 
 A﻿ first audio only version of the work was presented at Future Fantastic Festival 2023 in Bangalore, India.
 
