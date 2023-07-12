@@ -12,14 +12,16 @@ layout: layouts/base.njk
     </div>
     <h2>~~~~~~~~~~~~</h2>
     {% for post in projlist %}
-        <div class="eachproject regular ">
-            <div class="hyperlinks">
-                <a class="text-center font-work font-regular text-xs lowercase" href="{{ post.url | url }}">
-                    {{ post.data.title }}
-                </a>
+        {%if post.data.author == "agat" %}
+            <div class="eachproject regular ">
+                <div class="hyperlinks">
+                    <a class="font-work font-regular lowercase flex flex-col md:flex-row " href="{{ post.url | url }}">
+                        <div class="text-md font-bold md:w-1/3 md:py-3 md:border-b-2 md:border-white md:text-sm">{{ post.data.title }}</div>
+                        <div class="text-sm md:w-96 md:py-3 md:border-b-2 md:border-white md:text-sm">{{ post.data.category }}</div>
+                        <div class="text-xs md:w-24 md:py-3 border-b-2 border-white md:text-sm md:text-right">{{ post.data.year }}</div>
+                    </a>
+                </div>
             </div>
-            {{ post.data.category }}
-        </div>
-    {% endfor %}
-
-</div>
+            {%endif%}
+        {% endfor %}
+    </div>

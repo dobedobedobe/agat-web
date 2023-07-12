@@ -2,6 +2,7 @@ const htmlmin = require("html-minifier");
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 // const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const yaml = require("js-yaml");
+const embedEverything = require("eleventy-plugin-embed-everything");
 
 module.exports = function (eleventyConfig) {
   /**
@@ -18,6 +19,7 @@ module.exports = function (eleventyConfig) {
   //   outputDir: "./_site",
   // });
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+  eleventyConfig.addPlugin(embedEverything);
 
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy({

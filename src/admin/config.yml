@@ -85,3 +85,21 @@ collections:
         widget: "list"
         required: false
         field: { label: Tags, name: tags, widget: "string" }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About"
+        name: "about"
+        file: "_data/about.yaml"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - label: Team
+            name: team
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Bio, name: bio, widget: string }
+              - { label: Photo, name: photo, widget: image }
+              - { label: Link, name: link, widget: string }
