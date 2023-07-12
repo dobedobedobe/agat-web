@@ -1,6 +1,9 @@
 ---
-title: Birth of Cotton [exhibition]
+title: Birth of Cotton
+year: "2023"
 featimg: /img/uploads/tml20230527_79020.jpg
+category: installation
+author: intimidation
 collaborators:
   - collaborators: Julia van der Putten
   - collaborators: Naomi Collier Broms
