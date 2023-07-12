@@ -1,5 +1,5 @@
 ---
-title: "A New-Nature Documentary narrated by Sir David Attenborough "
+title: "A New-Nature Documentary by Sir David Attenborough "
 featimg: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
 category: installation
 collaborators:
