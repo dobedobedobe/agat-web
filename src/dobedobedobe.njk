@@ -1,0 +1,25 @@
+---
+title: AGAT SHARMA
+description: Theatre Maker
+layout: layouts/base.njk
+---
+
+{% set projlist = collections.projects %}
+
+<div class="projectlist font-groto text-white md:mx-5 m-2 px-1 space-y-2 my-auto ">
+    <div id="intro">
+        <p class="text-white text-xs font-work max-w-prose mb-8">somethign about dobedobedobe</p>
+    </div>
+    <h2>~~~~~~~~~~~~</h2>
+    {% for post in projlist %}
+        <div class="eachproject regular ">
+            <div class="hyperlinks">
+                <a class="text-center font-work font-regular text-xs lowercase" href="{{ post.url | url }}">
+                    {{ post.data.title }}
+                </a>
+            </div>
+            {{ post.data.category }}
+        </div>
+    {% endfor %}
+
+</div>

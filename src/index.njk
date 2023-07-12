@@ -14,13 +14,13 @@ layout: layouts/base.njk
     {% for post in projlist %}
         <div class="eachproject regular ">
             <div class="hyperlinks">
-                <a class="text-center font-work font-regular text-xs lowercase" href="{{ post.url | url }}">
+                <a class="text-center font-work font-regular text-xs lowercase flex flex-row border-b-1 border-white" href="{{ post.url | url }}">
 
-                    {{ post.data.title }}
-
+                    <div class="">{{ post.data.title }}</div>
+                    <div class="">{{ post.data.category }}</div>
+                    <div class="">{{ post.data.year }}</div>
                 </a>
             </div>
-
         </div>
     {% endfor %}
 

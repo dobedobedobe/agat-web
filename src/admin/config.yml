@@ -17,7 +17,36 @@ collections:
     # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
       - { label: "Featured Image", name: "featimg", widget: "image" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          [
+            "theatre",
+            "installation",
+            "performance",
+            "publication",
+            "design",
+            "education",
+            "music",
+            "film",
+            "video",
+            "inter-disciplinary",
+            "art-science",
+            "text",
+            "poetry",
+            "object",
+            "joke",
+            "sound",
+            "phone",
+            "drawing",
+          ]
+      - label: "Author"
+        name: "author"
+        widget: "select"
+        options: ["sss", "intimidation", "dobedobedobe", "agat"]
       - label: "Collaborators"
         name: "collaborators"
         widget: "list"
