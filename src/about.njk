@@ -19,11 +19,3 @@ layout: layouts/base.njk
             <a href="{{ who.link }}" target="_blank">Website</a>
         {% endfor %}
     </div>
-    <div>
-        {% for who in about.collaborators %}
-            <h1 class="">{{ who.name }}</h1>
-            <p class="">{{ who.bio }}</p>
-            <img src="{{ who.photo }}" alt="{{who.name}}">
-            <a href="{{ who.link }}" target="_blank">Website</a>
-        {% endfor %}
-    </div>

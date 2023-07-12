@@ -23,9 +23,7 @@ permalink: "work/{{ title }}/index.html"
                     {{ content | safe }}</p>
             {% endblock %}
         </div>
-        <div class="vid  {{ 'hidden' if 'none' in project_videos }} snap-center">
-            <iframe class="w-screen md:h-full md:w-[42rem] aspect-video" src="{{project_videos}}"></iframe>
-        </div>
+
         {# {% endif %} #}
         {# <p>SOME IMAGES</p> #}
         <div class=" py-12 flex flex-col flex-wrap">
@@ -36,14 +34,7 @@ permalink: "work/{{ title }}/index.html"
                 </div>
                 {%- endfor-%}
             </div>
-            <div class="collaborators mb-20">
-                <p class="text-sm font-extralight">COLLABORATORS</p>
-                <ul class="text-xs font-regular list-none capitalize">
-                    {%- for person in collaborators -%}
-                        <li>{{ person.collaborators }}</li>
-                    {%- endfor -%}
-                </ul>
-            </div>
+
         </div>
 
     </div>
