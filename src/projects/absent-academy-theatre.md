@@ -1,6 +1,7 @@
 ---
 title: Absent Academy [theatre]
 featimg: /img/uploads/absent-academy-small.jpg
+category: theatre
 collaborators:
   - collaborators: Sipan Sezgin
 projimg:
