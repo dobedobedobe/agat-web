@@ -1,7 +1,6 @@
 ---
-title: "A New-Nature Documentary by Sir David Attenborough "
+title: A New-Nature Documentary narrated by Sir David Attenborough [installation]
 featimg: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
-category: installation
 collaborators:
   - collaborators: Naomi Collier Broms
   - collaborators: George Demetriou
@@ -11,7 +10,7 @@ projimg:
   - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides.jpg
   - {}
-project_videos: https://www.youtube.com/embed?v=yff9JuIJ4RY
+project_videos: https://www.youtube.com/embed?v=lHZwlzOUOZ4
 tags:
   - AI
   - Intimidation Tactics
