@@ -2,7 +2,16 @@ title: abouttsds
 point_culture: Culture is Culture
 point_tech: Tech is tool
 point_inclusion: Inclusion is everything
-intro: p﻿oiunt
+intro: |-
+  p﻿oiunt
+
+
+
+  <https://www.w3schools.com/html/html_tables.asp>
+
+
+
+  [j﻿ulia](https://www.w3schools.com/html/html_tables.asp)
 team:
   - name: adf
     bio: fdd
@@ -11,7 +20,7 @@ team:
   - name: ambi
     bio: ambi bio
     photo: /img/uploads/TLP-intro+page.png
-    link: /ambi
+    link: https://www.w3schools.com/html/html_tables.asp
 collaborators:
   - name: sd
     bio: ceww
