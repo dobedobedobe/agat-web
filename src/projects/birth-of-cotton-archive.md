@@ -9,7 +9,6 @@ collaborators:
   - collaborators: Naomi Collier Broms
 projimg:
   - img: /img/uploads/tml20230527_79024.jpg
-  - img: /img/uploads/tml20230527_79016.jpg
 project_videos: none
 ---
 *Birth of Cotton showcases the research archive of Intimidation Tactics into the Indian cotton crisis. The crisis entails the largest recorded wave of suicides in the world: since 1995 over 400.000 farmers have taken their own lives. Many of them are cotton farmers. To share this research archive is to share the guiding question: How the fuck did we end up here?*
