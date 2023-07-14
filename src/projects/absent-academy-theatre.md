@@ -6,8 +6,7 @@ category: theatre
 author: agat
 collaborators:
   - collaborators: Sipan Sezgin
-projimg:
-  - img: /img/uploads/absent-academy-small.jpg
+projimg: []
 project_videos: none
 ---
 *The Absent Academy is staged in the form of a prestigious institution, a school dedicated the preservation and spreading of knowledge that has been forgotten, removed, repressed, hidden, ignored, or overwritten. The school staff Mr. Sipan Sezgin and Mr. Agat Sharma are the highly qualified and expert teachers committed to resurrecting these lost knowledges.* 
