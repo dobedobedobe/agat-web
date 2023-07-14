@@ -1,13 +1,12 @@
 ---
 title: "Hadean is my mother tongue "
 year: "2023"
-featimg: /img/uploads/photo_2023-07-14-18.29.39.jpeg
+featimg: /img/uploads/photo_2023-07-14-18.29.29.jpeg
 category: inter-disciplinary
 author: intimidation
 collaborators:
   - collaborators: The International Glottogeology Society
-projimg:
-  - img: /img/uploads/photo_2023-07-14-18.29.29.jpeg
+projimg: []
 project_videos: none
 ---
 *Hadean Is My Mother Tongue is the title of the 11th annual Glottogeology conference, organised in collaboration with The International Glottogeology Society. Glottogeology is a new discipline dedicated to the study of the relationship between landscape, language and body over very long time frames.*
