@@ -27,7 +27,7 @@ Performed by Jurgen Unom Gario, for Despair is too Easy (NTGent/Théâtre de Li�
 
 ![](/img/uploads/tml20220617_28678.jpg)
 
-W﻿ritten reflection on political theatre and violence by Agat Sharma
+W﻿ritten reflection on political theatre and violence by Agat Sharma:
 
 ### ***Theatre's three laws of violent utterances / The as long as laws***
 
