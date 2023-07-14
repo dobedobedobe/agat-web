@@ -10,6 +10,10 @@ collaborators:
   - collaborators: Agat Sharma
 projimg:
   - img: /img/uploads/tml20220617_28678.jpg
+  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances1.png
+    caption: Theatre's three laws of violent utterances by Agat Sharma
+  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances2.png
+  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances3.png
   - img: /img/uploads/theatre-s-three-laws-of-violent-utterances4.png
   - img: /img/uploads/theatre-s-three-laws-of-violent-utterances5.png
 project_videos: none
