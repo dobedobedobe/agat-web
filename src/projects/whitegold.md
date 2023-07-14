@@ -1,9 +1,15 @@
 ---
-title: "White Gold"
+projimg:
+  - img: /img/uploads/tml20230526_76808.jpg
+  - img: /img/uploads/tml20230526_76780.jpg
+  - img: /img/uploads/tml20230526_77394.jpg
+  - img: /img/uploads/tml20230526_77621.jpg
+layout: layouts/project.njk
+title: White Gold
 year: "2023"
+featimg: /img/uploads/tml20230526_76733.jpg
 category: theatre
 author: intimidation
-featimg: /img/uploads/tml20230526_76733.jpg
 collaborators:
   - collaborators: Yunus Bilir
   - collaborators: Laura Boser
@@ -12,17 +18,9 @@ collaborators:
   - collaborators: Maria Mavridou
   - collaborators: Julia van der Putten
   - collaborators: Sipan Sezgin Tekin
-projimg:
-  - img: /img/uploads/tml20230526_76808.jpg
-  - img: /img/uploads/tml20230526_76780.jpg
-  - img: /img/uploads/tml20230526_76733.jpg
-  - img: /img/uploads/tml20230526_77394.jpg
-  - img: /img/uploads/tml20230526_77621.jpg
-layout: layouts/project.njk
 project_videos: none
 ---
-
-White Gold is a restaging of a traditional folk performance from the Cotton growing regions of Central India. The performance takes place every year in the month of May just before the sowing season begins with the arrival of rain in June. For five consecutive nights the ancient tale of Ruru, Suka and Larynx is performed by the farming community in their unique theatrical style.
+*White Gold is a restaging of a traditional folk performance from the Cotton growing regions of Central India. The performance takes place every year in the month of May just before the sowing season begins with the arrival of rain in June. For five consecutive nights the ancient tale of Ruru, Suka and Larynx is performed by the farming community in their unique theatrical style.*
 
 In the story, Ruru and Suka are two children who are chosen to undertake an epic journey across the Earth to restore their lands that have been disturbed by the untimely landing of an alien Larynx.
 
