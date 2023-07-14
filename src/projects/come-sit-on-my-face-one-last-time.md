@@ -8,14 +8,7 @@ collaborators:
   - collaborators: George Demetriou
   - collaborators: Julia van der Putten
   - collaborators: Agat Sharma
-projimg:
-  - img: /img/uploads/tml20220617_28678.jpg
-  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances1.png
-    caption: Theatre's three laws of violent utterances by Agat Sharma
-  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances2.png
-  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances3.png
-  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances4.png
-  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances5.png
+projimg: []
 project_videos: none
 ---
 *Come sit on my face one last time is a concert about the future of nature and the human race that lasts exactly thirty minutes.* 
@@ -31,3 +24,21 @@ The audience is seated on a tribune facing a blank wall. The lights dim and slow
 Made as Intimidation Tactics with: George Demetriou, Julia van der Putten and Agat Sharma
 
 Performed by Jurgen Unom Gario, for Despair is too Easy (NTGent/Théâtre de Liège), November 2022
+
+
+
+![](/img/uploads/tml20220617_28678.jpg)
+
+
+
+![Theatre's three laws of violent utterances by Agat Sharma](/img/uploads/theatre-s-three-laws-of-violent-utterances1.png "Theatre's three laws of violent utterances by Agat Sharma")
+
+Theatre's three laws of violent utterances by Agat Sharma
+
+![](/img/uploads/theatre-s-three-laws-of-violent-utterances2.png)
+
+![](/img/uploads/theatre-s-three-laws-of-violent-utterances3.png)
+
+![](/img/uploads/theatre-s-three-laws-of-violent-utterances4.png)
+
+![](/img/uploads/theatre-s-three-laws-of-violent-utterances5.png)
