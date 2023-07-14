@@ -15,9 +15,9 @@ projimg:
   - img: /img/uploads/tml20230524_75302.jpg
 project_videos: none
 ---
-*Elizabeth-2 Ensemble is the experimental unit of Intimidation Tactics exploring the intersections between colonialism, advanced imaging technology and speculative ritual.*
+***Elizabeth-2 Ensemble is the experimental unit of Intimidation Tactics exploring the intersections between colonialism, advanced imaging technology and speculative ritual.***
 
-**First iteration May 2023**
+## **Iteration #1 May 2023**
 
 Technical set up: Husky UGV outdoor field research robot with smartphone camera mounted on top. Live video feed connect to Touch Designer patch with Posenet body recognition and Stable Diffusion image manipulation.
 
@@ -27,7 +27,7 @@ R﻿ealised with the support of ID-lab, AHK and AMS institute
 
 In collaboration with Laura Boser (performance), C﻿omputational Mama (generative AI), Julia van der Putten (dramaturgy), Agat Sharma (direction, text, concept), Carolien Teunisse (visuals), Jered Vroon (robotics)
 
-**Speculation 1: Simulacrum of Ancient Practice**
+### **Speculation: Simulacrum of Ancient Practice**
 
 Ancient practice in Central India, seen across different tribal communities. This particular practice is stemming from a mining community. This community had a belief that you could access what your ancestors saw through the objects they touched. Some of these practitioners could go so far back that they could see beings that we would recognize as humans. Beings that have no fossil records, beings that are beyond imagination. Beings that are in between worlds, stages of life, stages of earth. They could imagine these beings in action, hunting scenes, birthing, death, very vividly. They could access these through any object from their mining community. 
 
