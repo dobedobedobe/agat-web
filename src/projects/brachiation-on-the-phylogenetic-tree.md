@@ -2,7 +2,7 @@
 title: Brachiation on the Phylogenetic Tree
 year: "2021"
 featimg: /img/uploads/cicadina.png
-category: performance
+category: phone
 author: agat
 collaborators:
   - collaborators: Nanditi Khilnani
