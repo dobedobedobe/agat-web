@@ -25,15 +25,15 @@ Made as Intimidation Tactics with: George Demetriou, Julia van der Putten and Ag
 
 Performed by Jurgen Unom Gario, for Despair is too Easy (NTGent/Théâtre de Liège), November 2022
 
-
-
 ![](/img/uploads/tml20220617_28678.jpg)
 
 
 
+Theatre's three laws of violent utterances by Agat Sharma
+
 ![Theatre's three laws of violent utterances by Agat Sharma](/img/uploads/theatre-s-three-laws-of-violent-utterances1.png "Theatre's three laws of violent utterances by Agat Sharma")
 
-Theatre's three laws of violent utterances by Agat Sharma
+
 
 ![](/img/uploads/theatre-s-three-laws-of-violent-utterances2.png)
 
