@@ -1,8 +1,8 @@
 ---
 title: Brachiation on the Phylogenetic Tree
 year: "2021"
-featimg: /img/uploads/screen-shot-2020-11-05-at-4.55.34-pm.png
-category: performance
+featimg: /img/uploads/cicadina.png
+category: phone
 author: agat
 collaborators:
   - collaborators: Nanditi Khilnani
@@ -11,7 +11,6 @@ collaborators:
   - collaborators: Agat Sharma
 projimg:
   - img: /img/uploads/217306557_4293547454024678_7125816223818688459_n.jpg
-  - img: /img/uploads/screen-shot-2020-11-05-at-4.55.34-pm.png
 project_videos: none
 ---
 *This interactive speculative fiction work adapts automated Call Centre technologies to explore the entanglements between humans and microorganisms.*
