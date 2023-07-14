@@ -10,10 +10,8 @@ collaborators:
   - collaborators: Julia van der Putten
   - collaborators: Computational Mama
 projimg:
-  - img: /img/uploads/scherm­afbeelding-2023-07-04-om-18.14.34.png
   - img: /img/uploads/dialogue-slides.jpg
-  - {}
-project_videos:
+project_videos: null
 tags:
   - AI
   - Intimidation Tactics
