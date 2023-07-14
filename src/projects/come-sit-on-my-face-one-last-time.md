@@ -1,23 +1,29 @@
 ---
 title: Come sit on my face one last time
 year: "2022"
+featimg: /img/uploads/tml20220617_28689.jpg
 category: theatre
 author: intimidation
-featimg: /img/uploads/tml20220617_28689.jpg
 collaborators:
   - collaborators: George Demetriou
   - collaborators: Julia van der Putten
+  - collaborators: Agat Sharma
 projimg:
-  - img: /img/uploads/tml20220617_28689.jpg
   - img: /img/uploads/tml20220617_28678.jpg
-  - img: /img/uploads/tml20220617_28680.jpg
+  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances4.png
+  - img: /img/uploads/theatre-s-three-laws-of-violent-utterances5.png
 project_videos: none
 ---
+*Come sit on my face one last time is a concert about the future of nature and the human race that lasts exactly thirty minutes.* 
 
-_Come sit on my face one last time is a concert, set within the context of the cotton farming crisis in India. S﻿ince the 1990's the largest wave of recorded suicides has taken place in the Indian farming community. Over 400,000 farmers have killed themselves. This is reflected in the tragic statistical truth that, 'Every 30 minutes a farmer kills themselves in India.' During the performance we investigate the meaning of this statistical expression and witness what it means for us to live in a world where farmers are left with no choice but to consider their own death._
+One of the conundrums of contemporary globalised life is how to be in relation to eco-humanitarian crises from afar. Where this ‘from afar’ is mostly reserved for people living in the global north. Come Sit On My Face One Last Time stages this conundrum through an encounter with the statistical truth that “Every 30 minutes a farmer kills themselves in India.’ Since 1994 over 400,000 Indian farmers have killed themselves, many of whom cotton farmers. The largest wave of recorded suicides in the world. 
 
-The work is set up in the form of a techno-synth pop concert about the future of nature and the human-race that lasts exactly 30 minutes. What does it mean to share this temporality with the farmer? In which way can we locate ourselves in relation to this crisis? This is not an attempt to propose a solution to the crisis. This is not a call to action. It is not a commentary or an explanation. At best it is an attempt to digest what we already know is true, it is a forecasting, a mythical prophecy from the deep past and near future.
+This work is not an attempt to propose a solution to this crisis. This is not a call to action. It is not a commentary or an explanation. At best it is an attempt to digest what we already know is true, it is a forecasting, a mythical prophecy from the deep past and near future. 
+
+The audience is seated on a tribune facing a blank wall. The lights dim and slowly the line ‘Every 30 minutes a farmer kills themselves in India’ appears on the wall. When the countdown from thirty minutes begins, the music revs up. Breathing down the neck of the audience is Anno Domini, as he sings over accelerating hyperpop beats with the vengeance of a horny bloodhound. And the next moment he whispers sweet lullabies drifting on eerily slow dreamy soundscapes. The illusive singer of Intimidation Tactics accelerates time until ‘nothing human survives the future’. As the concert rushes towards its inevitable end the mythical, irreverent and weirdly perverted songs clash into the future abstracted image of the suicidal cotton farmer. 
+
+Come sit on my face one last time is a part of the larger Birth of Cotton project. Birth of Cotton is a long term multidisciplinary theatrical research project about the future of human-nature relationship and its collusion with western colonialism, epistemic violence, capitalism and extractive mechanisms that have been at play in the cotton farming sector in India. In this project we explore the longterm history of cotton farming in India, farmer suicides in India and the emergence of new forms of nature, such as toxic environments, transgenic cotton and other developments in synthetic biology. 
 
 Made as Intimidation Tactics with: George Demetriou, Julia van der Putten and Agat Sharma
 
-P﻿erformed by Jurgen Unom Gario, for _Despair is too Easy_ (NTGent/Théâtre de Liège), November 2022
+Performed by Jurgen Unom Gario, for Despair is too Easy (NTGent/Théâtre de Liège), November 2022
