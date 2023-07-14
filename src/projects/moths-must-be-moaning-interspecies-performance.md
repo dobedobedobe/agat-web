@@ -1,14 +1,14 @@
 ---
 title: Moths must be moaning
 year: "2021"
+featimg: /img/uploads/pink_bollworm.jpg
 category: art-science
 author: intimidation
-featimg: /img/uploads/pink_bollworm.jpg
 collaborators:
   - collaborators: Emily Burdfield-Steele
   - collaborators: Julia van der Putten
-projimg:
-  - img: /img/uploads/pink_bollworm.jpg
+  - collaborators: Agat Sharma
+projimg: []
 project_videos: none
 ---
 
