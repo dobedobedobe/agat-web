@@ -4,37 +4,81 @@ layout: layouts/base.njk
 permalink: "work/{{ title }}/index.html"
 
 ---
-<div class="font-work text-white md:mx-5 m-2 px-1 space-y-3 my-auto">
-    <div class="-z-10"  >
-        {# <img src="{{featimg}}" class="-z-20"> #}
-        <div class="">
+{% set projlist = collections.projects %}
+<div class="md:flex md:flex-row ">
+        {% include "components/navlist.njk" %}
+
+    <div class="md:w-2/3 text-white px-6">
+         <div class="">
             <h1 class="">{{title}}</h1>
-            {# <p class="text-white text-2xl font-regular">{{projprov}}</p> #}
-        </div>
-    </div>
+             <img src="{{featimg}}" alt="test" class='w-full mb-8'>
 
-    <div class="main">
-        <img src="{{featimg}}" alt="test" class='max-w-prose mb-8'>
-        {# px-16 my-16 #}
-
-        <div class="projectcontent text-xs font-work max-w-prose mb-8">
+        <div class="projectcontent text-md font-work max-w-prose mb-8">
             {% block content %}
                 <p class="text-2xl">
                     {{ content | safe }}</p>
             {% endblock %}
         </div>
-
-        {# {% endif %} #}
-        {# <p>SOME IMAGES</p> #}
-        <div class=" py-12 flex flex-col flex-wrap">
+ <div class=" py-12 flex flex-col flex-wrap">
             {%- for img in projimg -%}
                 <div class="">
                     <img src="{{ img.img }}" alt="{{ img.caption }}" class="object-cover p-2 h-full w-[42rem]">
-                    {# <p class="text-sm">{{ img.caption}}</p> #}
                 </div>
                 {%- endfor-%}
             </div>
-
         </div>
+        <div class=" py-12 flex flex-col flex-wrap mb-10">
+            <h2 class="uppercase text-lg">Collaborators</h2>
+            {%- for collaborator in collaborators -%}
+                <div class="text-md">
+                    <ul>
+                    <li class="">{{ collaborator.collaborators }}</li>
+                    </ul>
+                </div>
+                {%- endfor-%}
+            </div>
+        </div>        </div>
+        </div>
+    </div>
+<div class="font-work text-white md:mx-5 m-2 px-1 space-y-3 my-auto">
+    {# <div class="-z-10"  >
+        <img src="{{featimg}}" class="-z-20"> 
+        <div class="">
+            <h1 class="">{{title}}</h1>
+            <p class="text-white text-2xl font-regular">{{projprov}}</p> 
+        </div>
+    </div> #}
+
+    <div class="main">
+        {# <img src="{{featimg}}" alt="test" class='w-full mb-8'>
+
+        <div class="projectcontent text-md font-work max-w-prose mb-8">
+            {% block content %}
+                <p class="text-2xl">
+                    {{ content | safe }}</p>
+            {% endblock %}
+        </div> #}
+
+        {# {% endif %} #}
+        {# <p>SOME IMAGES</p> #}
+        {# <div class=" py-12 flex flex-col flex-wrap">
+            {%- for img in projimg -%}
+                <div class="">
+                    <img src="{{ img.img }}" alt="{{ img.caption }}" class="object-cover p-2 h-full w-[42rem]">
+                </div>
+                {%- endfor-%}
+            </div>
+        </div>
+        <div class=" py-12 flex flex-col flex-wrap mb-10">
+            <h2 class="uppercase text-lg">Collaborators</h2>
+            {%- for collaborator in collaborators -%}
+                <div class="text-md">
+                    <ul>
+                    <li class="">{{ collaborator.collaborators }}</li>
+                    </ul>
+                </div>
+                {%- endfor-%}
+            </div>
+        </div> #}
 
     </div>

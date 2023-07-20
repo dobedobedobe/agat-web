@@ -1,0 +1,13 @@
+   <div class="hidden md:flex md:flex-col projectlist font-work text-white">
+        {% for post in projlist %}
+            <div class="ml-4 eachproject regular">
+                <div class="hyperlinks">
+                    <a class="max-w-prose font-work font-regular lowercase flex flex-col md:grid md:grid-cols-3" href="{{ post.url | url }}">
+                        <div class="text-xs capitalize md:py-1 md:border-b-[0.1rem] md:border-gray-400 ">{{ post.data.title }}</div>
+                        <div class="text-xs capitalize md:py-1 md:border-b-[0.1rem] md:border-gray-400 md:text-right">{{ post.data.category }}</div>
+                        <div class="text-xs md:py-1 border-b-[0.1rem] border-gray-400 md:text-right">{{ post.data.year }}</div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
