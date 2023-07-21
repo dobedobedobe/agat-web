@@ -1,28 +1,23 @@
 ---
-title: AGAT SHARMA
+title: INTIMIDATION TACTICS
 description: Theatre Maker
 layout: layouts/base.njk
 ---
 
 {% set projlist = collections.projects %}
-
-<div class="projectlist font-groto text-white md:mx-5 m-2 px-1 space-y-2 my-auto ">
-    <div id="intro">
-        <p class="text-white text-xs font-work max-w-prose mb-8">something about Intimidation</p>
+<div class="md:flex md:flex-row ">
+{# {% for post in projlist %} #}
+    {# {%if post.data.author == "intimidation" %} #}
+     {% include "components/navlist.njk" %}
+    {# {% endif %} #}
+{# {% endfor %} #}
+    <div class="flex flex-col px-4 space-y-4 md:w-2/3 md:grid md:grid-cols-3 md:gap-4">
+        {% for post in projlist %}
+            {%if post.data.author == "intimidation" %}
+            <a class="{{ loop.index }}" href="{{ post.url | url }}">
+                <img class="px-4 object-fill" src="{{ post.data.featimg }}"></a>
+                {%endif %}
+            {% endfor %}
+        </div>
     </div>
-    <h2>~~~~~~~~~~~~</h2>
-    {% for post in projlist %}
-        {%if post.data.author == "intimidation" %}
-            <div class="eachproject regular ">
-                <div class="hyperlinks">
-                    <a class="font-work font-regular lowercase flex flex-col md:flex-row " href="{{ post.url | url }}">
-                        <div class="text-md font-bold md:w-1/3 md:py-3 md:border-b-2 md:border-white md:text-sm">{{ post.data.title }}</div>
-                        <div class="text-sm md:w-96 md:py-3 md:border-b-2 md:border-white md:text-sm">{{ post.data.category }}</div>
-                        <div class="text-xs md:w-24 md:py-3 border-b-2 border-white md:text-sm md:text-right">{{ post.data.year }}</div>
-                    </a>
-                </div>
-            </div>
-            {%endif%}
-        {% endfor %}
-
-    </div>
+</div>
