@@ -1,14 +1,22 @@
 ---
 title: Moths must be moaning
 year: "2021"
-featimg: /img/uploads/pink_bollworm.jpg
+featimg: /img/uploads/photo_2023-07-24-22.21.53.jpeg
 category: art-science
 author: intimidation
 collaborators:
   - collaborators: Emily Burdfield-Steele
   - collaborators: Julia van der Putten
   - collaborators: Agat Sharma
-projimg: []
+projimg:
+  - img: /img/uploads/photo_2023-07-24-22.22.15.jpeg
+    caption: the pheromone lure setup
+  - img: /img/uploads/photo_2023-07-24-22.22.32.jpeg
+    caption: "heliothis subflexa "
+  - img: /img/uploads/photo_2023-07-24-22.22.39.jpeg
+  - img: /img/uploads/photo_2023-07-24-22.28.59.jpeg
+  - img: /img/uploads/photo_2023-07-24-22.29.06.jpeg
+  - {}
 project_videos: none
 ---
 
